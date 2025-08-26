@@ -1,12 +1,11 @@
-import React, { useMemo, useState } from 'react'
+import React, { useMemo, useState } from "react";
 
-// Kalkulačka tržeb → výplata (CZK)
-// Zadání: tržba, hodiny, hodinová mzda, bonus %
-// Pravidlo bonusu:
-//   rawBonus = trzba * (bonusPct/100)
-//   - Pokud rawBonus > 0: odečti 20 Kč za každou odpracovanou hodinu
-//   - Pokud rawBonus ≤ 0: bonus = 0
-// Výsledek = základní mzda + bonus po úpravě
+// Jednoduchá kalkulačka tržby → výplata
+// Zadej: tržbu, odpracované hodiny, hodinovku a bonus %.
+// Pravidlo bonusu: rawBonus = trzba * (bonusPct/100).
+//  - Když rawBonus > 0 → odečti 20 Kč za každou odpracovanou hodinu.
+//  - Když rawBonus ≤ 0 → bonus se nepočítá (0).
+// Výsledek: základní mzda + upravený bonus. Vše v CZK.
 
 export default function App() {
   const [trzba, setTrzba] = useState(0)
@@ -14,10 +13,31 @@ export default function App() {
   const [hodinovka, setHodinovka] = useState(150)
   const [bonusPct, setBonusPct] = useState(10)
 
+  const parseNumber = (v) => {
+    if (typeof v === 'string') v = v.replace(',', '.')
+    const n = Number(v)
+    return isFinite(n) ? n : 0
+  }
+
   const result = useMemo(() => {
-    const h = Math.max(0, Number(hodiny) || 0)
-    const mzdaZaklad = (Number(hodinovka) || 0) * h
-    const rawBonus = (Number(trzba) || 0) * ((Number(bonusPct) || 0) / 100)
+    const h = Math.max(0, parseNumber(hodiny) || 0)
+    const revenue = Math.max(0, parseNumber(trzba) || 0)
+    const pct = parseNumber(bonusPct) || 0
+
+    let mzdaZaklad = (parseNumber(hodinovka) || 0) * h
+    const rawBonus = revenue * (pct / 100)
+
+    // Pravidlo: když neodpracuješ žádné hodiny, výplata = 0 (žádný bonus)
+    if (h === 0) {
+      return {
+        mzdaZaklad: 0,
+        rawBonus,
+        upravaMinusZaHodiny: 0,
+        bonusFinal: 0,
+        vyplataCelkem: 0,
+        efektivniNaHod: 0,
+      }
+    }
 
     let upravaMinusZaHodiny = 0
     let bonusFinal = 0
@@ -62,16 +82,28 @@ export default function App() {
           <h2 className="text-lg font-semibold">Vstupy</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             <label className="text-sm">Tržba (CZK)
-              <input type="number" inputMode="decimal" value={trzba} onChange={(e)=>setTrzba(Number(e.target.value))} className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="0" />
+              <input type="number" inputMode="numeric" step={1} min={0}
+                value={trzba}
+                onChange={(e)=>setTrzba(parseNumber(e.target.value))}
+                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="0" />
             </label>
             <label className="text-sm">Odpracované hodiny
-              <input type="number" inputMode="decimal" value={hodiny} onChange={(e)=>setHodiny(Number(e.target.value))} className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="0" />
+              <input type="number" inputMode="decimal" step="any" min={0}
+                value={hodiny}
+                onChange={(e)=>setHodiny(parseNumber(e.target.value))}
+                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="0" />
             </label>
             <label className="text-sm">Hodinová mzda (CZK)
-              <input type="number" inputMode="decimal" value={hodinovka} onChange={(e)=>setHodinovka(Number(e.target.value))} className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="150" />
+              <input type="number" inputMode="numeric" step={1} min={0}
+                value={hodinovka}
+                onChange={(e)=>setHodinovka(parseNumber(e.target.value))}
+                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="150" />
             </label>
             <label className="text-sm">Bonus (%)
-              <input type="number" inputMode="decimal" value={bonusPct} onChange={(e)=>setBonusPct(Number(e.target.value))} className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="10" />
+              <input type="number" inputMode="decimal" step="any"
+                value={bonusPct}
+                onChange={(e)=>setBonusPct(e.target.value)}
+                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="0.3" />
             </label>
           </div>
           <div className="flex gap-2 pt-2">
@@ -83,7 +115,7 @@ export default function App() {
         <section className="grid md:grid-cols-2 gap-4">
           <Card title="Základní mzda" value={formatCZK(result.mzdaZaklad)} sub="hodinovka × hodiny" />
           <Card title="Bonus (před úpravou)" value={formatCZK(result.rawBonus)} sub="tržba × %" />
-          <Card title="Úprava −20 Kč/h" value={`− ${formatCZK(result.upravaMinusZaHodiny)}`} sub={result.rawBonus > 0 ? "odečítá se jen když je bonus kladný" : "neodečítá se (bonus ≤ 0)"} />
+          <Card title="Úprava −20 Kč/h" value={`− ${formatCZK(result.upravaMinusZaHodiny)}`} sub={result.rawBonus > 0 && result.mzdaZaklad > 0 ? "odečítá se jen když je bonus kladný" : "neodečítá se"} />
           <Card title="Bonus po úpravě" value={formatCZK(result.bonusFinal)} />
         </section>
 
@@ -98,21 +130,21 @@ export default function App() {
   )
 }
 
-function Card({ title, value, sub }) {
+function Card({ title, value, sub }: { title: string; value: string; sub?: string }) {
   return (
     <div className="bg-white rounded-2xl shadow p-4">
       <div className="text-sm text-gray-500">{title}</div>
       <div className="text-2xl font-semibold tabular-nums">{value}</div>
       {sub && <div className="text-xs text-gray-500">{sub}</div>}
     </div>
-  )
+  );
 }
 
-function Highlight({ title, value }) {
+function Highlight({ title, value }: { title: string; value: string }) {
   return (
     <div className="bg-white rounded-2xl shadow p-6">
       <div className="text-sm text-gray-500">{title}</div>
       <div className="text-3xl font-bold tabular-nums">{value}</div>
     </div>
-  )
+  );
 }
