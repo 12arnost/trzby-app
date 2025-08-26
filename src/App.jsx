@@ -1,11 +1,13 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useState } from 'react'
 
-// Jednoduchá kalkulačka tržby → výplata
-// Zadej: tržbu, odpracované hodiny, hodinovku a bonus %.
-// Pravidlo bonusu: rawBonus = trzba * (bonusPct/100).
-//  - Když rawBonus > 0 → odečti 20 Kč za každou odpracovanou hodinu.
-//  - Když rawBonus ≤ 0 → bonus se nepočítá (0).
-// Výsledek: základní mzda + upravený bonus. Vše v CZK.
+// Kalkulačka tržeb → výplata (CZK)
+// Zadání: tržba, hodiny, hodinová mzda, bonus %
+// Pravidlo bonusu:
+//   rawBonus = trzba * (bonusPct/100)
+//   - Pokud rawBonus > 0: odečti 20 Kč za každou odpracovanou hodinu
+//   - Pokud rawBonus ≤ 0: bonus = 0
+// Další pravidlo: když odpracované hodiny = 0 → výplata = 0 (ani bonus)
+// Výsledek = základní mzda + bonus po úpravě
 
 export default function App() {
   const [trzba, setTrzba] = useState(0)
@@ -24,20 +26,21 @@ export default function App() {
     const revenue = Math.max(0, parseNumber(trzba) || 0)
     const pct = parseNumber(bonusPct) || 0
 
-    let mzdaZaklad = (parseNumber(hodinovka) || 0) * h
-    const rawBonus = revenue * (pct / 100)
-
-    // Pravidlo: když neodpracuješ žádné hodiny, výplata = 0 (žádný bonus)
+    // když nejsou hodiny → nic se nevyplácí (ani bonus)
     if (h === 0) {
+      const rawBonus0 = revenue * (pct / 100)
       return {
         mzdaZaklad: 0,
-        rawBonus,
+        rawBonus: rawBonus0,
         upravaMinusZaHodiny: 0,
         bonusFinal: 0,
         vyplataCelkem: 0,
         efektivniNaHod: 0,
       }
     }
+
+    const mzdaZaklad = (parseNumber(hodinovka) || 0) * h
+    const rawBonus = revenue * (pct / 100)
 
     let upravaMinusZaHodiny = 0
     let bonusFinal = 0
@@ -82,32 +85,60 @@ export default function App() {
           <h2 className="text-lg font-semibold">Vstupy</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             <label className="text-sm">Tržba (CZK)
-              <input type="number" inputMode="numeric" step={1} min={0}
+              <input
+                type="number"
+                inputMode="numeric"
+                step={1}
+                min={0}
                 value={trzba}
                 onChange={(e)=>setTrzba(parseNumber(e.target.value))}
-                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="0" />
+                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right"
+                placeholder="0"
+              />
             </label>
             <label className="text-sm">Odpracované hodiny
-              <input type="number" inputMode="decimal" step="any" min={0}
+              <input
+                type="number"
+                inputMode="decimal"
+                step="any"
+                min={0}
                 value={hodiny}
                 onChange={(e)=>setHodiny(parseNumber(e.target.value))}
-                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="0" />
+                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right"
+                placeholder="0"
+              />
             </label>
             <label className="text-sm">Hodinová mzda (CZK)
-              <input type="number" inputMode="numeric" step={1} min={0}
+              <input
+                type="number"
+                inputMode="numeric"
+                step={1}
+                min={0}
                 value={hodinovka}
                 onChange={(e)=>setHodinovka(parseNumber(e.target.value))}
-                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="150" />
+                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right"
+                placeholder="150"
+              />
             </label>
             <label className="text-sm">Bonus (%)
-              <input type="number" inputMode="decimal" step="any"
+              <input
+                type="number"
+                inputMode="decimal"
+                step="any"
                 value={bonusPct}
                 onChange={(e)=>setBonusPct(e.target.value)}
-                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right" placeholder="0.3" />
+                className="block mt-1 border rounded-lg px-3 py-2 w-full text-right"
+                placeholder="0.3"
+              />
             </label>
           </div>
           <div className="flex gap-2 pt-2">
-            <button onClick={()=>{setTrzba(0); setHodiny(0); setHodinovka(150); setBonusPct(10);}} className="px-3 py-2 rounded-xl border bg-white hover:bg-gray-50">Reset</button>
+            <button
+              onClick={()=>{setTrzba(0); setHodiny(0); setHodinovka(150); setBonusPct(10);}}
+              className="px-3 py-2 rounded-xl border bg-white hover:bg-gray-50"
+            >
+              Reset
+            </button>
           </div>
         </section>
 
@@ -115,7 +146,11 @@ export default function App() {
         <section className="grid md:grid-cols-2 gap-4">
           <Card title="Základní mzda" value={formatCZK(result.mzdaZaklad)} sub="hodinovka × hodiny" />
           <Card title="Bonus (před úpravou)" value={formatCZK(result.rawBonus)} sub="tržba × %" />
-          <Card title="Úprava −20 Kč/h" value={`− ${formatCZK(result.upravaMinusZaHodiny)}`} sub={result.rawBonus > 0 && result.mzdaZaklad > 0 ? "odečítá se jen když je bonus kladný" : "neodečítá se"} />
+          <Card
+            title="Úprava −20 Kč/h"
+            value={`− ${formatCZK(result.upravaMinusZaHodiny)}`}
+            sub={result.rawBonus > 0 && result.mzdaZaklad > 0 ? "odečítá se jen když je bonus kladný" : "neodečítá se"}
+          />
           <Card title="Bonus po úpravě" value={formatCZK(result.bonusFinal)} />
         </section>
 
@@ -124,27 +159,29 @@ export default function App() {
           <Highlight title="Efektivně na hodinu" value={formatCZK(result.efektivniNaHod)} />
         </section>
 
-        <footer className="text-xs text-gray-500 text-center py-6">© {new Date().getFullYear()} Kalkulačka tržeb • Vše v CZK • Žádná data se neukládají</footer>
+        <footer className="text-xs text-gray-500 text-center py-6">
+          © {new Date().getFullYear()} Kalkulačka tržeb • Vše v CZK • Žádná data se neukládají
+        </footer>
       </div>
     </div>
   )
 }
 
-function Card({ title, value, sub }: { title: string; value: string; sub?: string }) {
+function Card({ title, value, sub }) {
   return (
     <div className="bg-white rounded-2xl shadow p-4">
       <div className="text-sm text-gray-500">{title}</div>
       <div className="text-2xl font-semibold tabular-nums">{value}</div>
       {sub && <div className="text-xs text-gray-500">{sub}</div>}
     </div>
-  );
+  )
 }
 
-function Highlight({ title, value }: { title: string; value: string }) {
+function Highlight({ title, value }) {
   return (
     <div className="bg-white rounded-2xl shadow p-6">
       <div className="text-sm text-gray-500">{title}</div>
       <div className="text-3xl font-bold tabular-nums">{value}</div>
     </div>
-  );
+  )
 }
