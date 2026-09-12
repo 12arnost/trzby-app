@@ -1,12 +1,15 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "configVersion": "ibc-2026-09-11-a",
+  "configVersion": "ibc-2026-09-12-b",
   "nextConfigUrl": "",
   "schedule": {
     "urls": [
-      "https://show.ibc.org/2026-content-agenda",
-      "https://show.ibc.org/ibc2026-conference-agenda"
+      "https://show.ibc.org/content-everywhere",
+      "https://show.ibc.org/ibc-owner-programme",
+      "https://show.ibc.org/future-tech",
+      "https://show.ibc.org/ibc-showcase-theatre",
+      "https://show.ibc.org/ibc-conference"
     ],
     "fallbackUrl": "https://show.ibc.org/ibc2026",
     "refreshMinutes": 5,
