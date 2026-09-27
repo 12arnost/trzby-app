@@ -43,7 +43,7 @@ jobs:
       - name: Commit schedule changes
         shell: bash
         run: |
-          if git diff --quiet -- robocam-control/events/*-schedule.json; then
+          if [ -z "$(git status --porcelain -- 'robocam-control/events/*-schedule.json')" ]; then
             echo "Agenda unchanged."
             exit 0
           fi
