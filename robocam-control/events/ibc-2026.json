@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "ibc-2026",
+  "version": "2026-09-27-archive-a",
+  "name": "IBC 2026",
+  "shortName": "IBC",
+  "timezone": "Europe/Amsterdam",
+  "utcOffset": "+02:00",
+  "dates": [
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14"
+  ],
+  "parserPreset": "generic-dom-v1",
+  "allowOverlaps": false,
+  "locations": [
+    "Future Tech Stage",
+    "Ignite Stage",
+    "IBC Content Everywhere Stage 1",
+    "IBC Content Everywhere Stage 2",
+    "Showcase Theatre",
+    "Conference Room 1",
+    "Conference Room 2",
+    "E102",
+    "E105",
+    "Conference Lounge"
+  ],
+  "aliases": {
+    "future tech": "Future Tech Stage",
+    "ignite": "Ignite Stage",
+    "content everywhere 1": "IBC Content Everywhere Stage 1",
+    "content everywhere 2": "IBC Content Everywhere Stage 2",
+    "ce 1": "IBC Content Everywhere Stage 1",
+    "ce 2": "IBC Content Everywhere Stage 2",
+    "showcase": "Showcase Theatre",
+    "conference 1": "Conference Room 1",
+    "conference 2": "Conference Room 2",
+    "e102": "E102",
+    "e105": "E105",
+    "conference lounge": "Conference Lounge"
+  },
+  "schedule": {
+    "sourceType": "html",
+    "urls": [
+      "https://show.ibc.org/content-everywhere",
+      "https://show.ibc.org/ibc-owner-programme",
+      "https://show.ibc.org/future-tech",
+      "https://show.ibc.org/ibc-showcase-theatre",
+      "https://show.ibc.org/ibc-conference"
+    ],
+    "fallbackUrl": "https://show.ibc.org/ibc2026",
+    "refreshMinutes": 5,
+    "minSessions": 40
+  }
+}
