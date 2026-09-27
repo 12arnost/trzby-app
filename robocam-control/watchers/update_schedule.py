@@ -153,12 +153,11 @@ def bad_title(text: str, locations: list[str]) -> bool:
         return True
     if re.match(
         r"^(learn more|register(?: now)?|speakers?|session moderator|presented by|headline sponsor|"
-        r"sponsored by|view|image:|search|filters?|read more|panell?ists?|moderator|chair|free to attend)$",
+        r"sponsored by|view|image:|search|filters?|read more|panell?ists?|moderator|chair|free to attend)"
+        r"(?:\\s*\\(.*\\))?$",
         value,
         re.I,
     ):
-        return True
-    if any(value.lower() == loc.lower() for loc in locations):
         return True
     if re.match(r"^\d{1,2}:\d{2}\s*(?:am|pm)?", value, re.I):
         return True
