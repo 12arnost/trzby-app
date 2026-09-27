@@ -72,6 +72,16 @@
     ],
     "fallbackUrl": "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda",
     "refreshMinutes": 5,
-    "minSessions": 80
+    "minSessions": 180
+  },
+  "watcher": {
+    "enabled": true,
+    "parserPreset": "generic-dom-v1",
+    "sourceUrls": [
+      "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda"
+    ],
+    "outputPath": "robocam-control/events/itc-vegas-2026-schedule.json",
+    "minSessions": 180,
+    "requireAllDates": true
   }
 }
