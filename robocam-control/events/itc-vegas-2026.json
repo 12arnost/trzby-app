@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "itc-vegas-2026",
-  "version": "2026-09-27-a",
+  "version": "2026-09-27-b",
   "name": "ITC Vegas 2026",
   "shortName": "ITC",
   "timezone": "America/Los_Angeles",
@@ -66,10 +66,8 @@
     "town square": "Town Square Takeovers"
   },
   "schedule": {
-    "sourceType": "html",
-    "urls": [
-      "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda"
-    ],
+    "sourceType": "json",
+    "dataUrl": "https://raw.githubusercontent.com/12arnost/trzby-app/main/robocam-control/events/itc-vegas-2026-schedule.json",
     "fallbackUrl": "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda",
     "refreshMinutes": 5,
     "minSessions": 180
