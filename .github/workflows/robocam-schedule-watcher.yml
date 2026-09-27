@@ -1,0 +1,55 @@
+name: RoboCam Schedule Watcher
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "3-58/5 * * * *"
+  push:
+    paths:
+      - "robocam-control/events/**"
+      - "robocam-control/watchers/**"
+      - ".github/workflows/robocam-schedule-watcher.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robocam-schedule-watcher
+  cancel-in-progress: true
+
+jobs:
+  update-schedules:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install parser dependency
+        run: python -m pip install --disable-pip-version-check --quiet beautifulsoup4
+
+      - name: Check upstream agendas
+        run: python robocam-control/watchers/update_schedule.py
+
+      - name: Commit schedule changes
+        shell: bash
+        run: |
+          if git diff --quiet -- robocam-control/events/*-schedule.json; then
+            echo "Agenda unchanged."
+            exit 0
+          fi
+
+          git config user.name "RoboCam Schedule Watcher"
+          git config user.email "actions@users.noreply.github.com"
+          git add robocam-control/events/*-schedule.json
+          git commit -m "Update RoboCam schedule data"
+          git push origin HEAD:main
