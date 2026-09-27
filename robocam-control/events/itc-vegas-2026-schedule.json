@@ -66,7 +66,7 @@
       "date": "2026-09-29",
       "start": "08:00",
       "end": "18:00",
-      "title": "LEARN MORE (opens in a new tab)",
+      "title": "ITC Agents",
       "location": "ITC Agents",
       "stream": "ITC Agents"
     },
@@ -122,7 +122,7 @@
       "date": "2026-09-29",
       "start": "09:00",
       "end": "17:00",
-      "title": "LEARN MORE (opens in a new tab)",
+      "title": "ITC LATAM",
       "location": "ITC LATAM",
       "stream": "ITC LATAM"
     },
@@ -522,7 +522,7 @@
       "date": "2026-09-29",
       "start": "15:00",
       "end": "17:00",
-      "title": "LEARN MORE (opens in a new tab)",
+      "title": "State Farm Startup Pitch Competition",
       "location": "State Farm Startup Pitch Competition",
       "stream": "State Farm Startup Pitch Competition"
     },
@@ -1791,7 +1791,7 @@
       "stream": "Event Information"
     }
   ],
-  "updatedAt": "2026-09-27T13:59:26Z",
-  "sourceHash": "7a6a5acc09beb69a6bc4882dc81b5594e09f6134c606a6227492cb856d22a37e",
-  "scheduleHash": "ee8ea2afbcbdba956ef5ba1a419fa47414600765b81c24292a834645c4aecd72"
+  "updatedAt": "2026-09-27T14:00:53Z",
+  "sourceHash": "1955346c8b4435ef5b8005fb479a921e092036b0a2cf4242788f7a5f53c76a74",
+  "scheduleHash": "35f3f833f90ed3507b907e63ff5cd7c846d86784e6b44eb2cc43aff836262658"
 }
