@@ -1,0 +1,1797 @@
+{
+  "schemaVersion": 1,
+  "eventId": "itc-vegas-2026",
+  "eventVersion": "2026-09-27-a",
+  "sourceUrls": [
+    "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda"
+  ],
+  "sessionCount": 219,
+  "countsByDate": {
+    "2026-09-29": 68,
+    "2026-09-30": 92,
+    "2026-10-01": 59
+  },
+  "locations": [
+    "Event Information",
+    "Main Stage",
+    "AI in Action",
+    "ITC Sponsor-Curated Summits",
+    "AI-Powered Insurance Innovation Summit",
+    "Capacity Connect Summit",
+    "Claims Transformation & Fraud Summit",
+    "Commercial & Specialty Lines Summit",
+    "Cyber Innovation Summit",
+    "Deep Dives",
+    "Health Connect Summit",
+    "Innovation Through Growth",
+    "Innovation Through Operational Efficiency",
+    "Innovation Through Strategic Foresight",
+    "ITC Agents",
+    "ITC Community Meet-Ups",
+    "ITC LATAM",
+    "ITC Solutions Stage",
+    "Life, Health & Benefits",
+    "Lunch Seminar",
+    "Masterclass Series",
+    "State Farm Startup Pitch Competition",
+    "The Modern Underwriter Summit",
+    "Town Square Takeovers"
+  ],
+  "sessions": [
+    {
+      "date": "2026-09-29",
+      "start": "07:00",
+      "end": "18:00",
+      "title": "Badge Pickup Hours",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "07:00",
+      "end": "08:30",
+      "title": "Breakfast Sponsored by Heathos",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "07:00",
+      "end": "18:00",
+      "title": "ITC Vegas Discovery Desk powered by CB Insights",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "08:00",
+      "end": "18:00",
+      "title": "LEARN MORE (opens in a new tab)",
+      "location": "ITC Agents",
+      "stream": "ITC Agents"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "08:45",
+      "end": "11:35",
+      "title": "Clearspeed TrustFaster Summit",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:00",
+      "end": "13:00",
+      "title": "TCS Summit: Composing the AI-First Insurer",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "Opening remarks, presented by ServiceNow",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "Opening remarks, presented by WTW",
+      "location": "Claims Transformation & Fraud Summit",
+      "stream": "Claims Transformation & Fraud Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "Opening remarks, presented by bolt",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "Opening remarks, presented by Zurich",
+      "location": "Health Connect Summit",
+      "stream": "Health Connect Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:00",
+      "end": "17:00",
+      "title": "LEARN MORE (opens in a new tab)",
+      "location": "ITC LATAM",
+      "stream": "ITC LATAM"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:05",
+      "end": "09:25",
+      "title": "The future of insurance: Powered by AI",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:05",
+      "end": "09:25",
+      "title": "The strategic rise of claims",
+      "location": "Claims Transformation & Fraud Summit",
+      "stream": "Claims Transformation & Fraud Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:05",
+      "end": "09:25",
+      "title": "AI-powered specialty distribution: Connecting opportunity to coverage, presented by bolt",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:05",
+      "end": "09:25",
+      "title": "Closing the coverage gap with innovation in supplemental health and technology, presented by Zurich",
+      "location": "Health Connect Summit",
+      "stream": "Health Connect Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:30",
+      "end": "10:05",
+      "title": "The AI control tower: Orchestrating insurance operations end-to-end, presented by ServiceNow",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:30",
+      "end": "09:50",
+      "title": "Designing the modern claims ecosystem: Integration, insight & performance, presented by WTW",
+      "location": "Claims Transformation & Fraud Summit",
+      "stream": "Claims Transformation & Fraud Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:30",
+      "end": "09:50",
+      "title": "Inside the tech-native commercial & specialty insurer",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:30",
+      "end": "09:50",
+      "title": "Underwriting risk in a data-rich environment: Turning healthcare data into underwriting alpha",
+      "location": "Health Connect Summit",
+      "stream": "Health Connect Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:55",
+      "end": "10:30",
+      "title": "The autonomous claim: Scaling automation with confidence",
+      "location": "Claims Transformation & Fraud Summit",
+      "stream": "Claims Transformation & Fraud Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:55",
+      "end": "10:15",
+      "title": "Modernization that pays off: Real outcomes from an AI-first P&C transformation, presented by Sapiens",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "09:55",
+      "end": "10:20",
+      "title": "America's care crisis: Finding opportunity and redefining the role of insurance",
+      "location": "Health Connect Summit",
+      "stream": "Health Connect Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "10:10",
+      "end": "10:30",
+      "title": "Why some insurers get value from AI and some don't, presented by Federato",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "10:20",
+      "end": "10:40",
+      "title": "Beyond digitization: Agentic API trading and the new architecture of specialty insurance",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "10:25",
+      "end": "10:45",
+      "title": "From risk to real-time: The digital health revolution in insurance",
+      "location": "Health Connect Summit",
+      "stream": "Health Connect Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "10:30",
+      "end": "16:00",
+      "title": "Pegasystems Summit: Insurance Reimagined: Practical AI for Real Outcomes",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "10:35",
+      "end": "10:55",
+      "title": "Learn how insurance companies use AI Agents to run their most mission-critical workflows, at scale, presented by Skan.ai",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "10:35",
+      "end": "10:55",
+      "title": "Reconstruct. Resolve. Prevent.: The new commercial auto claims lifecycle, presented by MOTER",
+      "location": "Claims Transformation & Fraud Summit",
+      "stream": "Claims Transformation & Fraud Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "10:45",
+      "end": "11:10",
+      "title": "Parametric insurance: How AI, data, and distribution are redefining resilience",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "10:55",
+      "end": "11:15",
+      "title": "Agentic claims at scale: What we learned from processing millions of health claims, presented by Allianz and Taktile",
+      "location": "Health Connect Summit",
+      "stream": "Health Connect Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:00",
+      "end": "11:35",
+      "title": "AI & insurance: A conversation with CTOs leading the charge",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:00",
+      "end": "11:20",
+      "title": "Outrunning fraud without slowing down growth, presented by Plaid",
+      "location": "Claims Transformation & Fraud Summit",
+      "stream": "Claims Transformation & Fraud Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:15",
+      "end": "11:25",
+      "title": "Scaling insurance operations with AI powered document management, presented by Laserfiche",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:20",
+      "end": "11:50",
+      "title": "The rise of women's health and femtech—why insuretech must catch up",
+      "location": "Health Connect Summit",
+      "stream": "Health Connect Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:25",
+      "end": "11:50",
+      "title": "Probability is not proof: The future of fraud defense",
+      "location": "Claims Transformation & Fraud Summit",
+      "stream": "Claims Transformation & Fraud Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:30",
+      "end": "11:50",
+      "title": "From insight to impact: Winning in commercial lines with data and analytics, presented by WTW",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Unlocking the AI multiplier, presented by Akur8",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:55",
+      "end": "12:15",
+      "title": "Point of receipt: Redefining claims risk detection, presented by Isomer",
+      "location": "Claims Transformation & Fraud Summit",
+      "stream": "Claims Transformation & Fraud Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:55",
+      "end": "12:05",
+      "title": "From AI pilots to business results: How insurance leaders can build and scale faster, presented by OIP",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "11:55",
+      "end": "12:15",
+      "title": "Pharmacy, GLP-1s and the new cost pressure on health benefits",
+      "location": "Health Connect Summit",
+      "stream": "Health Connect Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Sponsored by Heathos",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "12:00",
+      "end": "16:00",
+      "title": "Viewpoint Ventures Summit: 5th annual strategy, corporate development & innovation summit",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "Governed agents at scale: Managing AI like a workforce, presented by Workday",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "12:10",
+      "end": "12:20",
+      "title": "The conditions for prevention-led insurance already exist",
+      "location": "Commercial & Specialty Lines Summit",
+      "stream": "Commercial & Specialty Lines Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "12:30",
+      "end": "18:00",
+      "title": "Datos Insights Summit: Why AI Transformations Stall in the Race to Operationalize AI",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:00",
+      "end": "17:00",
+      "title": "Celent Summit: Starting the Countdown to Agentic Insurance",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:00",
+      "end": "17:00",
+      "title": "Cognizant Summit",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:00",
+      "end": "17:00",
+      "title": "Sureify Life & Annuity Summit",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:00",
+      "end": "13:05",
+      "title": "Opening remarks, presented by Mea",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:05",
+      "end": "13:25",
+      "title": "The strategic priorities of the modern chief underwriting officer",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:25",
+      "end": "13:45",
+      "title": "Fight fire with fire: Conquering generative AI powered fraud for claims, presented by SAS",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:30",
+      "end": "17:00",
+      "title": "Alchemy Crew Ventures: AI Horizons 2030: The Readiness Problem",
+      "location": "ITC Sponsor-Curated Summits",
+      "stream": "ITC Sponsor-Curated Summits"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:30",
+      "end": "13:50",
+      "title": "The agentic underwriter: Is AI about to take over the underwriting lifecycle? Presented by Hexaware",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:50",
+      "end": "14:10",
+      "title": "Fireside chat: Portfolio intelligence: Managing risk in real time",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "13:55",
+      "end": "14:25",
+      "title": "From reactive to resilient: How tech is rewriting the rules of risk",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "14:00",
+      "end": "15:00",
+      "title": "First Timers Orientation",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "14:15",
+      "end": "14:50",
+      "title": "Phase one has to pay: Sequencing an underwriting ecosystem by ROI and risk, presented by IntellectAI",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "14:30",
+      "end": "14:50",
+      "title": "AI-powered underwriting: Smarter risks, faster decisions, presented by Xceedance",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "14:55",
+      "end": "15:30",
+      "title": "From data to advantage: Turning insurance data assets into strategic value",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "14:55",
+      "end": "15:15",
+      "title": "Fireside chat: The future of underwriting — from craft to cognitive engine, presented by AWS",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "15:00",
+      "end": "17:00",
+      "title": "LEARN MORE (opens in a new tab)",
+      "location": "State Farm Startup Pitch Competition",
+      "stream": "State Farm Startup Pitch Competition"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "15:20",
+      "end": "15:50",
+      "title": "Connected underwriting: From individual desk to integrated ecosystem",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "15:35",
+      "end": "15:55",
+      "title": "AI in distribution: Redesigning the workflows that drive new and renewal business, presented by Vertafore",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "15:55",
+      "end": "16:15",
+      "title": "Insurability of AI risks",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Build, buy, or partner? The strategic AI decision facing insurers",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "16:20",
+      "end": "16:40",
+      "title": "Run the book: What it really takes to scale AI in underwriting, presented by Mea",
+      "location": "The Modern Underwriter Summit",
+      "stream": "The Modern Underwriter Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "16:35",
+      "end": "16:55",
+      "title": "41% More binds: Lessons from an AI-first agency, presented by bolt",
+      "location": "AI-Powered Insurance Innovation Summit",
+      "stream": "AI-Powered Insurance Innovation Summit"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "17:00",
+      "end": "19:00",
+      "title": "ITC Vegas Official Kickoff Party",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "07:00",
+      "end": "18:00",
+      "title": "Badge Pickup Hours",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "07:00",
+      "end": "08:30",
+      "title": "Breakfast Sponsored by Heathos",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "07:00",
+      "end": "18:00",
+      "title": "ITC Vegas Discovery Desk powered by CB Insights",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "07:15",
+      "end": "08:15",
+      "title": "First Timers Expo Tour",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "08:15",
+      "end": "10:15",
+      "title": "Wednesday Keynotes On the Main Stage",
+      "location": "Main Stage",
+      "stream": "Main Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "18:00",
+      "title": "Expo Floor Open",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:00",
+      "end": "10:10",
+      "title": "Product demo: Closing the AI underwriting loop with pre-bind precision and post-bind proof, presented by IntellectAI",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:15",
+      "end": "10:25",
+      "title": "Product demo: One Inc",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "11:00",
+      "title": "AI for insurance: Innovate around your core, presented by OneShield",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by Deloitte",
+      "location": "Capacity Connect Summit",
+      "stream": "Capacity Connect Summit"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by Salesforce",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by Majesco",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by Microsoft",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:40",
+      "title": "Product demo: Earnix Intelligent Decision Engine: Powered by AIOS",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "From carve-out to launch: Building a scalable MGA for the AI-driven marketplace, presented by Deloitte",
+      "location": "Capacity Connect Summit",
+      "stream": "Capacity Connect Summit"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "From pilot to agentic operating system: Scaling profitably, presented by Salesforce",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "The frontier insurer: A new AI operating paradigm, presented by Majesco",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "Rewriting the insurance value chain with agentic AI, presented by Microsoft",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "Modernizing life & annuity policy administration systems",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:45",
+      "end": "10:55",
+      "title": "Product demo: Convr risk context engine",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "11:10",
+      "title": "Product demo: Your AI needs a better view, presented by Vexcel",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "12:00",
+      "title": "Claims Agent Masterclass: How to Build an Agent You'd Trust with a Claim",
+      "location": "Masterclass Series",
+      "stream": "Masterclass Series"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "12:00",
+      "title": "LATAM field trip – “Get to know LATAM”",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "12:00",
+      "title": "The $90 billion goodbye: Turning the claims moment into a growth engine",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:05",
+      "end": "11:35",
+      "title": "From chaos to clarity: Approaches to modernizing program business operations, presented by Quantiphi",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:45",
+      "title": "What capital wants in 2026",
+      "location": "Capacity Connect Summit",
+      "stream": "Capacity Connect Summit"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "Acquisition is getting harder, now what?",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "AI strategic trends and operational insights: How technology continues to reshape our industry",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "When to build, when to partner, when to acquire",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:25",
+      "title": "Product demo: US Rooftop Geocoding, presented by Smarty",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "From modernization to momentum: How insurers are building for what's next in life & annuities, presented by Sapiens",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Black Leadership Forum",
+      "location": "ITC Community Meet-Ups",
+      "stream": "ITC Community Meet-Ups"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:30",
+      "end": "11:40",
+      "title": "Product Demo: From transactional to transformational: Driving retention with modern payments, presented by Paymentus",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:10",
+      "title": "When AI governance enables innovation, presented by Monitaur",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Connected distribution in action: Lessons from USAA's digital transformation journey, presented by bolt",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Behind the door: Why the next wave of property risk intelligence starts inside the home, presented by Home Factors by PGM",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "The hidden engine of insurance growth, presented by INTX",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Make exec stakeholders venture literate fast: The translation layer every insurer needs",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:45",
+      "end": "11:55",
+      "title": "Product demo: SeekNow",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:50",
+      "end": "12:20",
+      "title": "Building the MGAs of the future",
+      "location": "Capacity Connect Summit",
+      "stream": "Capacity Connect Summit"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Sponsored by Heathos",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "ChatGPT as an insurance distribution channel? Tuio and Mapfre in conversation",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "What makes AI successful at enterprise scale: AI friendly APIs, presented by InsureMO",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:40",
+      "title": "Faster hands, or a smarter brain? The different kinds of agentic AI, presented by Federato",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:40",
+      "title": "Beyond telematics: AI, vehicle intelligence, and the future of insurance, presented by Milliman",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "What agentic AI actually costs to run: Lessons from insurers in production, presented by Neutrinos",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:30",
+      "end": "14:00",
+      "title": "Modern platform. Intelligent operations. Real outcomes. Presented by IBM",
+      "location": "Lunch Seminar",
+      "stream": "Lunch Seminar"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:00",
+      "end": "14:00",
+      "title": "RISE young professionals meet-up",
+      "location": "ITC Community Meet-Ups",
+      "stream": "ITC Community Meet-Ups"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Taking action in claims with agentic AI, presented by Bevaya",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "The future of distribution: AI-powered connectivity across the commercial ecosystem, presented by Applied Systems",
+      "location": "Capacity Connect Summit",
+      "stream": "Capacity Connect Summit"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "Agentic commerce and the future of insurance distribution, presented by Stripe",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "Agentic Al success with unified, real-time core data, presented by Reltio",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "How Nationwide and LeakBot proactively prevent water damage, presented by LeakBot",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "Product demo: TruVideo Clarity",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "One intelligent operations platform. Unlimited possibilities, presented by Solvrays",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "15:00",
+      "title": "AIP breaking news and official ITC LATAM photo",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "15:00",
+      "title": "Closing the staggering L&AH protection gap, presented by Majesco",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:05",
+      "end": "14:35",
+      "title": "Stop leaving claims risk on the table, presented by Clara Analytics",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:15",
+      "end": "14:25",
+      "title": "Product Demo: Hyland AI‑powered claims decisions",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:15",
+      "end": "14:50",
+      "title": "Beyond automation: Building the AI-native insurance operating model, presented by PwC",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:25",
+      "end": "14:45",
+      "title": "The AI arms race: Who will win in the next era of insurance? The opportunity, risk and real-world impact of AI across insurance, presented by Shift Technology",
+      "location": "Capacity Connect Summit",
+      "stream": "Capacity Connect Summit"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:25",
+      "end": "14:35",
+      "title": "Embedded insurance, reimagined: From distribution to orchestration to agentic growth, presented by Mapfre",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:25",
+      "end": "14:35",
+      "title": "The real cost of 'lift and shift'",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:25",
+      "end": "14:35",
+      "title": "The new safety net: Insurtech + carriers",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:30",
+      "end": "16:00",
+      "title": "VC Office Hours",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:30",
+      "end": "14:40",
+      "title": "Product demo: Filevine",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:40",
+      "end": "15:10",
+      "title": "From intake to outcome: How Palomar automated servicing, presented by Pace",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:40",
+      "end": "15:15",
+      "title": "From lead to loyal: Winning the modern insurance customer funnel",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:40",
+      "end": "15:15",
+      "title": "AI safety and governance in claims, presented by Assured",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:40",
+      "end": "15:15",
+      "title": "The orchestrated carrier, presented by Duck Creek",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:45",
+      "end": "14:55",
+      "title": "Product demo: Zero to product in 10 Minutes with AI, presented by Socotra",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:50",
+      "end": "15:20",
+      "title": "Capital meets capacity: The live market",
+      "location": "Capacity Connect Summit",
+      "stream": "Capacity Connect Summit"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:55",
+      "end": "15:15",
+      "title": "The next era of health insurance is AI-native",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:00",
+      "end": "17:00",
+      "title": "Women’s Leadership Forum, Sponsored by Sikich and Unitary",
+      "location": "ITC Community Meet-Ups",
+      "stream": "ITC Community Meet-Ups"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:00",
+      "end": "15:10",
+      "title": "Product demo: DSW UnifyAI OS - The enterprise AI operating system, presented by Data Science Wizards",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:00",
+      "end": "16:00",
+      "title": "How global insurers are driving innovation: Lessons from Brazil and Latin America",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:15",
+      "end": "16:15",
+      "title": "Matterport Bourbon Tasting",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:15",
+      "end": "15:45",
+      "title": "Who owns the algorithm? AI accountability in the modern insurer",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:15",
+      "end": "15:25",
+      "title": "Product demo: Signal Fuse, presented by Data Axle",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:40",
+      "title": "Accelerating the digitization of B2B payments in healthcare, presented by Mastercard",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:40",
+      "title": "Claims transformation without claims chaos",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:40",
+      "title": "Autonomous mobility insurance: Rewriting risk in a driverless world",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:55",
+      "title": "Group benefits technology: Enrollment, eligibility and data accuracy",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:30",
+      "end": "15:40",
+      "title": "Product demo: From one address to an entire market: DataTree® in action, presented by First American Data & Analytics",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:45",
+      "end": "16:20",
+      "title": "Embedded insurance and strategic partnerships: new paths to market",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:45",
+      "end": "16:20",
+      "title": "Where the rubber meets the rate: How real-time traffic is redefining territory rating, presented by TomTom",
+      "location": "Innovation Through Operational Efficiency",
+      "stream": "Innovation Through Operational Efficiency"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:45",
+      "end": "16:20",
+      "title": "Collaboration over competition: Hagerty's technology-enabled partner ecosystem for people who love cars",
+      "location": "Innovation Through Strategic Foresight",
+      "stream": "Innovation Through Strategic Foresight"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:50",
+      "end": "16:20",
+      "title": "Transforming insurance SDLC with AI & agentic orchestration, presented by Aggne",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Insurance in the frontier era: Turning intelligence into impact, presented by Microsoft",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:15",
+      "end": "17:30",
+      "title": "Expo Floor Happy Hour",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:15",
+      "end": "17:30",
+      "title": "Happy Hour Sponsored by MetLife",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "17:00",
+      "end": "19:00",
+      "title": "C-Suite Reception Sponsored by Buddy, INTX, Majesco, Percipience, and Snapsheet,",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "07:00",
+      "end": "17:00",
+      "title": "Badge Pickup Hours",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "07:00",
+      "end": "08:30",
+      "title": "Breakfast Sponsored by Heathos",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "07:00",
+      "end": "18:00",
+      "title": "ITC Vegas Discovery Desk powered by CB Insights",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "08:15",
+      "end": "10:10",
+      "title": "Thursday Keynotes On the Main Stage",
+      "location": "Main Stage",
+      "stream": "Main Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "09:00",
+      "end": "17:00",
+      "title": "Expo Floor Open",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:00",
+      "end": "10:10",
+      "title": "Product demo: Quadient Evolve: AI-powered template generator, presented by Quadient",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:15",
+      "end": "10:25",
+      "title": "Product demo: Adopt AI",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:30",
+      "end": "11:00",
+      "title": "AI priced it. Who signed It? The technical function reimagined by AI, presented by WTW",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by IBM",
+      "location": "Cyber Innovation Summit",
+      "stream": "Cyber Innovation Summit"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:30",
+      "end": "11:45",
+      "title": "A facilitated peer conversation on driving behavior data, pricing, and growth. Presented by Arity",
+      "location": "Deep Dives",
+      "stream": "Deep Dives"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by Salesforce",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:30",
+      "end": "12:30",
+      "title": "Founders Forum",
+      "location": "ITC Community Meet-Ups",
+      "stream": "ITC Community Meet-Ups"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:30",
+      "end": "10:40",
+      "title": "Product demo: Balto.ai",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:30",
+      "end": "14:00",
+      "title": "Winning Monetization and Sales Strategies for Insurtechs in the Age of AI In Partnership with Simon-Kucher",
+      "location": "Masterclass Series",
+      "stream": "Masterclass Series"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:35",
+      "end": "11:05",
+      "title": "Building quantum resilience: The journey to quantum-safe cryptography, presented by IBM",
+      "location": "Cyber Innovation Summit",
+      "stream": "Cyber Innovation Summit"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "Distribution 2.0: reimagining the broker & digital channel stack",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "The AI-enabled advisor: Sales, suitability and retirement planning",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:45",
+      "end": "10:55",
+      "title": "Product demo: The Future of Distribution Management: From disconnected systems to one orchestration layer, presented by Producerflow",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:00",
+      "end": "11:45",
+      "title": "CB Insights Top 50 Insurtech Report: Unpacking the world’s most promising insurtech startups",
+      "location": "Deep Dives",
+      "stream": "Deep Dives"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:00",
+      "end": "11:10",
+      "title": "Product demo: AI Agents for customer interactions, presented by InfiniteWatch",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:00",
+      "end": "12:00",
+      "title": "LATAM global gathering: Meet other insurtechs from around the world",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Skillful means at work: Proactive on burnout — before it becomes a claim, presented by SkillfulMeans",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:05",
+      "end": "11:35",
+      "title": "Agentic AI: Grounded in context. Committed to business outcomes, presented by Plutus",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:10",
+      "end": "11:40",
+      "title": "Cyber risk through the eyes of a CISO: The evolving role of cyber insurance",
+      "location": "Cyber Innovation Summit",
+      "stream": "Cyber Innovation Summit"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "Build vs. buy is only half the decision: Fireside chat with Adam Landau (CIO, Berkshire Hathaway GUARD), presented by Further AI",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:15",
+      "end": "11:25",
+      "title": "Product demo: Indemn Digital Workforce",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "The claim that never happened",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:30",
+      "end": "11:40",
+      "title": "Product demo: Driving trust: Empowering consumers through telematics, presented by TransUnion",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:40",
+      "end": "12:10",
+      "title": "What is an AI-first insurance application? — Reimagining insurance operations with generative AI, presented by GenerativeX",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Annuities in a high-rate environment: product design and distribution strategy",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:45",
+      "end": "12:20",
+      "title": "The weaponization of AI and cyber insurance",
+      "location": "Cyber Innovation Summit",
+      "stream": "Cyber Innovation Summit"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:45",
+      "end": "12:00",
+      "title": "The hidden cost of bad agency data: Why your distribution strategy — and your AI — depends on what's underneath it, presented by Neilson Marketing Services",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:50",
+      "end": "12:10",
+      "title": "From possibility to progress: Building the future of insurance, presented by Apryse",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Sponsored by Heathos",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Fourth annual foosball tournament - hosted by AIP",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "The AI-enabled benefits lifecycle",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "12:15",
+      "end": "12:35",
+      "title": "Reimagining customer engagement through AI at a 165-year-old insurance company",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "12:30",
+      "end": "12:40",
+      "title": "How did an insurer increase enrollment 114%? presented by TruAgents",
+      "location": "Life, Health & Benefits",
+      "stream": "Life, Health & Benefits"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Re-engineer or evolve: Two paths to agentic AI, presented by Camunda",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "13:30",
+      "end": "14:15",
+      "title": "The agentic insurer — from AI ambition to action, presented by AWS",
+      "location": "ITC Community Meet-Ups",
+      "stream": "ITC Community Meet-Ups"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:00",
+      "end": "14:30",
+      "title": "Beyond the $10 billion ceiling: Underwriting cyber risk in a post-quantum world",
+      "location": "Cyber Innovation Summit",
+      "stream": "Cyber Innovation Summit"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "Can digital transformation outrun AI fraud? Presented by Socure",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "Product demo: Variabl",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:00",
+      "end": "14:30",
+      "title": "Break your news",
+      "location": "Town Square Takeovers",
+      "stream": "Town Square Takeovers"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:05",
+      "end": "14:35",
+      "title": "Receipts to roadmap, presented by Liberate",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:15",
+      "end": "14:25",
+      "title": "Product demo: AODocs",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:25",
+      "end": "14:45",
+      "title": "Beyond the buzz: From reactive to predictive AI in insurance turning emerging AI into smarter risk intelligence",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:30",
+      "end": "14:40",
+      "title": "Product demo: ePayPolicy",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:35",
+      "end": "14:55",
+      "title": "Anatomy of a cyber claim",
+      "location": "Cyber Innovation Summit",
+      "stream": "Cyber Innovation Summit"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:40",
+      "end": "15:10",
+      "title": "When AI gets faster, should humans get slower? Inside Mutual of Omaha's AI transformation, presented by Cresta.AI",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:45",
+      "end": "14:55",
+      "title": "Product demo: G1 Platform (Powered By Growth Insurance)",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:50",
+      "end": "15:10",
+      "title": "Universal accessibility in documents: Essential for some, better for all",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "15:00",
+      "end": "15:35",
+      "title": "Cyber risk Q&A: Our experts - your questions",
+      "location": "Cyber Innovation Summit",
+      "stream": "Cyber Innovation Summit"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "15:00",
+      "end": "15:10",
+      "title": "Product demo: From Submission to Policy Issuance, presented by Mulberri",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "15:15",
+      "end": "16:30",
+      "title": "Expo Floor Happy Hour",
+      "location": "Event Information",
+      "stream": "Event Information"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "15:15",
+      "end": "15:45",
+      "title": "Rebuilding the engine mid-flight: AI-powered core modernization, presented by LTM",
+      "location": "AI in Action",
+      "stream": "AI in Action"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "15:15",
+      "end": "15:50",
+      "title": "Aggregators, marketplaces and the fight for placement",
+      "location": "Innovation Through Growth",
+      "stream": "Innovation Through Growth"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "15:15",
+      "end": "15:25",
+      "title": "The Future of Superintelligent Vision, presented by Matter",
+      "location": "ITC Solutions Stage",
+      "stream": "ITC Solutions Stage"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "20:00",
+      "end": "22:00",
+      "title": "ITC Vegas Official Closing Party featuring the Gin Blossoms!",
+      "location": "Event Information",
+      "stream": "Event Information"
+    }
+  ],
+  "updatedAt": "2026-09-27T13:59:26Z",
+  "sourceHash": "7a6a5acc09beb69a6bc4882dc81b5594e09f6134c606a6227492cb856d22a37e",
+  "scheduleHash": "ee8ea2afbcbdba956ef5ba1a419fa47414600765b81c24292a834645c4aecd72"
+}
