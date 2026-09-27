@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "eventId": "itc-vegas-2026",
-  "eventVersion": "2026-09-27-a",
+  "eventVersion": "2026-09-27-b",
   "sourceUrls": [
     "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda"
   ],
@@ -1791,7 +1791,7 @@
       "stream": "Event Information"
     }
   ],
-  "updatedAt": "2026-09-27T14:00:53Z",
-  "sourceHash": "1955346c8b4435ef5b8005fb479a921e092036b0a2cf4242788f7a5f53c76a74",
-  "scheduleHash": "35f3f833f90ed3507b907e63ff5cd7c846d86784e6b44eb2cc43aff836262658"
+  "updatedAt": "2026-09-27T14:02:23Z",
+  "sourceHash": "8fbd5840049b355e9aa587563ff5ba7df1f0f89f7605507f646905cef2530221",
+  "scheduleHash": "5ff65528e79bd563fc6fee84d902015e663f6925089171ba79dc1b5c6c1e7301"
 }
