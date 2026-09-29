@@ -472,6 +472,10 @@ def main() -> int:
 
         counts = Counter(s["date"] for s in sessions)
         if len(sessions) < min_sessions:
+            if profile.get("id") == "itc-vegas-2026":
+                source_blob = "\n".join(fetch_text(u) for u in urls)
+                for probe in profile.get("locations", []):
+                    print(f"[schedule-watcher][debug] room {probe!r}: {source_blob.lower().count(str(probe).lower())} raw matches")
             raise RuntimeError(
                 f"{profile_path}: parsed only {len(sessions)} sessions, minimum is {min_sessions}; refusing to overwrite last-known-good schedule"
             )
