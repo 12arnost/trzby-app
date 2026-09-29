@@ -23,7 +23,7 @@ from pathlib import Path
 from typing import Any
 
 from bs4 import BeautifulSoup
-from bs4.element import Tag
+from bs4.element import NavigableString, Tag
 
 TIME_PAIR_12 = re.compile(
     r"(?:^|\D)(1[0-2]|0?[1-9]):([0-5]\d)\s*(AM|PM)\s*(?:-|–|—|to)?\s*"
@@ -182,6 +182,34 @@ def tag_text(tag: Tag) -> str:
     return norm(tag.get_text(" ", strip=True))
 
 
+def nearby_location_after(anchor: Tag, locations: list[str]) -> str:
+    """Find a venue/room printed immediately after a session title link.
+
+    ITC renders the physical ballroom as a sibling after the title, while the
+    schedule category is a separate surrounding section. Looking forward in
+    document order lets us capture the ballroom without depending on the exact
+    wrapper depth used by the site.
+    """
+    title = tag_text(anchor)
+    seen = 0
+    for elem in anchor.next_elements:
+        if not isinstance(elem, NavigableString):
+            continue
+        text = norm(str(elem))
+        if not text or text == title:
+            continue
+        location = location_from_text(text, locations)
+        if location:
+            return location
+        seen += 1
+        if seen > 120:
+            break
+        # Once the next session's time range starts, do not steal its room.
+        if seen > 2 and time_pair(text):
+            break
+    return ""
+
+
 def find_card(anchor: Tag) -> Tag | None:
     current: Tag | None = anchor
     for _ in range(11):
@@ -235,7 +263,13 @@ def explicit_date_for_node(node: Tag, dates: list[str]) -> str:
 
 def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> dict[str, Any]:
     dates = list(profile.get("dates") or [])
-    locations = list(profile.get("locations") or [])
+    # profile.locations is the operator-facing physical room list.
+    rooms = list(profile.get("locations") or [])
+    watcher = profile.get("watcher") if isinstance(profile.get("watcher"), dict) else {}
+    # Some agenda sites (including ITC) group sessions by programme category,
+    # not by physical room. Those group labels are used only to preserve day
+    # ordering while the emitted schedule location remains the real ballroom.
+    group_locations = list(watcher.get("groupLocations") or rooms)
     short_name = norm(profile.get("shortName") or profile.get("name") or "EVENT")
     allow_overlaps = bool(profile.get("allowOverlaps"))
 
@@ -245,7 +279,7 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
 
     headings: list[tuple[int, str]] = []
     for node in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "legend", "div", "p", "span"]):
-        loc = exact_location(tag_text(node), locations)
+        loc = exact_location(tag_text(node), group_locations)
         if not loc:
             continue
         if len(node.find_all(recursive=False)) > 6:
@@ -267,20 +301,26 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
         pair = time_pair(text)
         if not pair or not pair[0] or not pair[1]:
             continue
-        title = title_from_card(card, anchor, locations)
+        title = title_from_card(card, anchor, group_locations)
         if not title:
             continue
 
         card_pos = order.get(id(card), 10**12)
-        location = ""
+        group_location = ""
         for heading_pos, heading_loc in headings:
             if heading_pos < card_pos:
-                location = heading_loc
+                group_location = heading_loc
             else:
                 break
-        if not location:
-            location = location_from_text(text, locations)
-        if not location:
+
+        # The physical room may live outside the smallest card wrapper, so look
+        # immediately after the title link in DOM order first.
+        room = nearby_location_after(anchor, rooms)
+        if not room:
+            room = location_from_text(text, rooms)
+        if not room:
+            # Non-room items (general event info, expo-floor activations, etc.)
+            # are intentionally excluded from the RoboCam room schedule.
             continue
 
         seen_cards.add(id(card))
@@ -289,8 +329,9 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
             "start": pair[0],
             "end": pair[1],
             "title": title,
-            "location": location,
-            "stream": location or short_name,
+            "location": room,
+            "_group": group_location,
+            "stream": room or short_name,
             "_order": len(raw),
         })
 
@@ -304,7 +345,7 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
         except ValueError:
             explicit_idx = -1
         try:
-            rank = locations.index(session["location"])
+            rank = group_locations.index(session.get("_group", ""))
         except ValueError:
             rank = -1
 
@@ -319,7 +360,7 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
 
     unique: dict[str, dict[str, Any]] = {}
     for s in raw:
-        if s["date"] not in dates or s["location"] not in locations:
+        if s["date"] not in dates or s["location"] not in rooms:
             continue
         key = "|".join((s["date"], s["start"], s["end"], s["location"], norm(s["title"]))).lower()
         if key not in unique:
@@ -337,8 +378,8 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
     # ITC explicitly allows simultaneous sessions within a category. For other
     # event types we still only de-duplicate exact records here; the extension
     # may apply its stricter timeline conflict handling when configured.
-    sessions.sort(key=lambda s: (s["date"], s["start"], locations.index(s["location"]) if s["location"] in locations else 999, s["title"]))
-    present_locations = [loc for loc in locations if any(s["location"] == loc for s in sessions)]
+    sessions.sort(key=lambda s: (s["date"], s["start"], rooms.index(s["location"]) if s["location"] in rooms else 999, s["title"]))
+    present_locations = [loc for loc in rooms if any(s["location"] == loc for s in sessions)]
 
     return {
         "sessions": sessions,
