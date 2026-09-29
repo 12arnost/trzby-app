@@ -159,6 +159,8 @@ def bad_title(text: str, locations: list[str]) -> bool:
         re.I,
     ):
         return True
+    if any(value.lower() == loc.lower() for loc in locations):
+        return True
     if re.match(r"^\d{1,2}:\d{2}\s*(?:am|pm)?", value, re.I):
         return True
     return False
@@ -202,10 +204,7 @@ def nearby_location_after(anchor: Tag, locations: list[str]) -> str:
         if location:
             return location
         seen += 1
-        if seen > 120:
-            break
-        # Once the next session's time range starts, do not steal its room.
-        if seen > 2 and time_pair(text):
+        if seen > 80:
             break
     return ""
 
