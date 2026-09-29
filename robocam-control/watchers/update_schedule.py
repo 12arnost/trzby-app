@@ -292,7 +292,7 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
 
     for anchor in soup.find_all("a", href=True):
         anchor_text = tag_text(anchor)
-        if bad_title(anchor_text, locations):
+        if bad_title(anchor_text, group_locations):
             continue
         card = find_card(anchor)
         if card is None or id(card) in seen_cards:
