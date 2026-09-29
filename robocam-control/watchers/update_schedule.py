@@ -99,8 +99,8 @@ def date_from_text(value: str, dates: list[str]) -> str:
             return iso
 
     m = re.search(
-        r"\b(0?[1-9]|[12]\d|3[01])\s+"
-        r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+"
+        r"\b(0?[1-9]|[12]\d|3[01])(?:\s+|[-_/])"
+        r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)(?:\s+|[-_/])"
         r"(20\d{2})\b",
         text,
         re.I,
@@ -271,16 +271,9 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
     group_locations = list(watcher.get("groupLocations") or rooms)
     short_name = norm(profile.get("shortName") or profile.get("name") or "EVENT")
     allow_overlaps = bool(profile.get("allowOverlaps"))
+    source_date = date_from_text(source_url, dates)
 
     soup = BeautifulSoup(html, "html.parser")
-    if profile.get("id") == "itc-vegas-2026":
-        for inp in soup.find_all("input"):
-            attrs = dict(inp.attrs)
-            blob = " ".join(str(v) for v in attrs.values())
-            parent_text = tag_text(inp.parent)[:300] if isinstance(inp.parent, Tag) else ""
-            probe = (blob + " " + parent_text).lower()
-            if any(token in probe for token in ("september 29", "september 30", "october 01", "date")):
-                print(f"[schedule-watcher][filter-input] attrs={attrs} parent={parent_text!r}")
     all_tags = soup.find_all(True)
     order = {id(tag): idx for idx, tag in enumerate(all_tags)}
 
@@ -312,15 +305,6 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
         if not title:
             continue
 
-        if profile.get("id") == "itc-vegas-2026" and title.startswith("Agentic claims at scale"):
-            probe = anchor
-            for level in range(11):
-                if not isinstance(probe, Tag):
-                    break
-                attrs = dict(probe.attrs) if level == 2 else {k: v for k, v in probe.attrs.items() if k in ("class", "id", "data-date", "data-day", "data-start", "data-end", "data-location", "data-filter", "data-sort")}
-                print(f"[schedule-watcher][dom] level={level} tag={probe.name} attrs={attrs} text={tag_text(probe)[:700]!r}")
-                probe = probe.parent if isinstance(probe.parent, Tag) else None
-
         card_pos = order.get(id(card), 10**12)
         group_location = ""
         for heading_pos, heading_loc in headings:
@@ -341,7 +325,7 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
 
         seen_cards.add(id(card))
         raw.append({
-            "date": explicit_date_for_node(card, dates),
+            "date": explicit_date_for_node(card, dates) or source_date,
             "start": pair[0],
             "end": pair[1],
             "title": title,
@@ -489,10 +473,6 @@ def main() -> int:
 
         counts = Counter(s["date"] for s in sessions)
         if len(sessions) < min_sessions:
-            if profile.get("id") == "itc-vegas-2026":
-                source_blob = "\n".join(fetch_text(u) for u in urls)
-                for probe in profile.get("locations", []):
-                    print(f"[schedule-watcher][debug] room {probe!r}: {source_blob.lower().count(str(probe).lower())} raw matches")
             raise RuntimeError(
                 f"{profile_path}: parsed only {len(sessions)} sessions, minimum is {min_sessions}; refusing to overwrite last-known-good schedule"
             )
