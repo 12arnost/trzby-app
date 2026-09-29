@@ -1,1797 +1,2280 @@
 {
   "schemaVersion": 1,
   "eventId": "itc-vegas-2026",
-  "eventVersion": "2026-09-27-b",
+  "eventVersion": "2026-09-29-rooms-c",
   "sourceUrls": [
-    "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda"
+    "https://vegas.insuretechconnect.com/2026-agenda"
   ],
-  "sessionCount": 219,
+  "sessionCount": 281,
   "countsByDate": {
-    "2026-09-29": 68,
-    "2026-09-30": 92,
-    "2026-10-01": 59
+    "2026-09-29": 20,
+    "2026-09-30": 252,
+    "2026-10-01": 9
   },
   "locations": [
-    "Event Information",
-    "Main Stage",
-    "AI in Action",
-    "ITC Sponsor-Curated Summits",
-    "AI-Powered Insurance Innovation Summit",
-    "Capacity Connect Summit",
-    "Claims Transformation & Fraud Summit",
-    "Commercial & Specialty Lines Summit",
-    "Cyber Innovation Summit",
-    "Deep Dives",
-    "Health Connect Summit",
-    "Innovation Through Growth",
-    "Innovation Through Operational Efficiency",
-    "Innovation Through Strategic Foresight",
-    "ITC Agents",
-    "ITC Community Meet-Ups",
-    "ITC LATAM",
-    "ITC Solutions Stage",
-    "Life, Health & Benefits",
-    "Lunch Seminar",
-    "Masterclass Series",
-    "State Farm Startup Pitch Competition",
-    "The Modern Underwriter Summit",
-    "Town Square Takeovers"
+    "Breakers Ballroom BC",
+    "Breakers Ballroom DE",
+    "Lagoon Ballroom KL",
+    "Mandalay Bay Ballroom D",
+    "Mandalay Bay Ballroom F",
+    "Mandalay Bay Ballroom I",
+    "Mandalay Bay Ballroom J",
+    "Mandalay Bay Ballroom K",
+    "Mandalay Bay Ballroom L",
+    "Oceanside Ballroom B",
+    "Reef Ballroom EF"
   ],
   "sessions": [
     {
       "date": "2026-09-29",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "Badge Pickup Hours",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "07:00",
-      "end": "08:30",
-      "title": "Breakfast Sponsored by Heathos",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "ITC Vegas Discovery Desk powered by CB Insights",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "08:00",
-      "end": "18:00",
-      "title": "ITC Agents",
-      "location": "ITC Agents",
-      "stream": "ITC Agents"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "08:45",
-      "end": "11:35",
-      "title": "Clearspeed TrustFaster Summit",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:00",
-      "end": "13:00",
-      "title": "TCS Summit: Composing the AI-First Insurer",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:00",
-      "end": "09:05",
-      "title": "Opening remarks, presented by ServiceNow",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:00",
-      "end": "09:05",
-      "title": "Opening remarks, presented by WTW",
-      "location": "Claims Transformation & Fraud Summit",
-      "stream": "Claims Transformation & Fraud Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:00",
-      "end": "09:05",
-      "title": "Opening remarks, presented by bolt",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:00",
-      "end": "09:05",
-      "title": "Opening remarks, presented by Zurich",
-      "location": "Health Connect Summit",
-      "stream": "Health Connect Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:00",
-      "end": "17:00",
-      "title": "ITC LATAM",
-      "location": "ITC LATAM",
-      "stream": "ITC LATAM"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:05",
-      "end": "09:25",
-      "title": "The future of insurance: Powered by AI",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:05",
-      "end": "09:25",
-      "title": "The strategic rise of claims",
-      "location": "Claims Transformation & Fraud Summit",
-      "stream": "Claims Transformation & Fraud Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:05",
-      "end": "09:25",
-      "title": "AI-powered specialty distribution: Connecting opportunity to coverage, presented by bolt",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:05",
-      "end": "09:25",
-      "title": "Closing the coverage gap with innovation in supplemental health and technology, presented by Zurich",
-      "location": "Health Connect Summit",
-      "stream": "Health Connect Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:30",
-      "end": "10:05",
-      "title": "The AI control tower: Orchestrating insurance operations end-to-end, presented by ServiceNow",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:30",
-      "end": "09:50",
-      "title": "Designing the modern claims ecosystem: Integration, insight & performance, presented by WTW",
-      "location": "Claims Transformation & Fraud Summit",
-      "stream": "Claims Transformation & Fraud Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:30",
-      "end": "09:50",
-      "title": "Inside the tech-native commercial & specialty insurer",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:30",
-      "end": "09:50",
-      "title": "Underwriting risk in a data-rich environment: Turning healthcare data into underwriting alpha",
-      "location": "Health Connect Summit",
-      "stream": "Health Connect Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:55",
-      "end": "10:30",
-      "title": "The autonomous claim: Scaling automation with confidence",
-      "location": "Claims Transformation & Fraud Summit",
-      "stream": "Claims Transformation & Fraud Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:55",
-      "end": "10:15",
-      "title": "Modernization that pays off: Real outcomes from an AI-first P&C transformation, presented by Sapiens",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:55",
-      "end": "10:20",
-      "title": "America's care crisis: Finding opportunity and redefining the role of insurance",
-      "location": "Health Connect Summit",
-      "stream": "Health Connect Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "10:10",
-      "end": "10:30",
-      "title": "Why some insurers get value from AI and some don't, presented by Federato",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "10:20",
-      "end": "10:40",
-      "title": "Beyond digitization: Agentic API trading and the new architecture of specialty insurance",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "10:25",
-      "end": "10:45",
-      "title": "From risk to real-time: The digital health revolution in insurance",
-      "location": "Health Connect Summit",
-      "stream": "Health Connect Summit"
+      "start": "10:30",
+      "end": "11:45",
+      "title": "A facilitated peer conversation on driving behavior data, pricing, and growth. Presented by Arity",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-29",
       "start": "10:30",
-      "end": "16:00",
-      "title": "Pegasystems Summit: Insurance Reimagined: Practical AI for Real Outcomes",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
+      "end": "11:00",
+      "title": "AI for insurance: Innovate around your core, presented by OneShield",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-29",
-      "start": "10:35",
-      "end": "10:55",
-      "title": "Learn how insurance companies use AI Agents to run their most mission-critical workflows, at scale, presented by Skan.ai",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "10:35",
-      "end": "10:55",
-      "title": "Reconstruct. Resolve. Prevent.: The new commercial auto claims lifecycle, presented by MOTER",
-      "location": "Claims Transformation & Fraud Summit",
-      "stream": "Claims Transformation & Fraud Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "10:45",
-      "end": "11:10",
-      "title": "Parametric insurance: How AI, data, and distribution are redefining resilience",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
+      "start": "10:30",
+      "end": "11:00",
+      "title": "AI priced it. Who signed It? The technical function reimagined by AI, presented by WTW",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-29",
       "start": "10:55",
       "end": "11:15",
       "title": "Agentic claims at scale: What we learned from processing millions of health claims, presented by Allianz and Taktile",
-      "location": "Health Connect Summit",
-      "stream": "Health Connect Summit"
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
     },
     {
       "date": "2026-09-29",
       "start": "11:00",
       "end": "11:35",
       "title": "AI & insurance: A conversation with CTOs leading the charge",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-29",
-      "start": "11:00",
-      "end": "11:20",
-      "title": "Outrunning fraud without slowing down growth, presented by Plaid",
-      "location": "Claims Transformation & Fraud Summit",
-      "stream": "Claims Transformation & Fraud Summit"
+      "start": "11:05",
+      "end": "11:35",
+      "title": "Agentic AI: Grounded in context. Committed to business outcomes, presented by Plutus",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-29",
       "start": "11:15",
-      "end": "11:25",
-      "title": "Scaling insurance operations with AI powered document management, presented by Laserfiche",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
+      "end": "11:35",
+      "title": "Acquisition is getting harder, now what?",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     },
     {
       "date": "2026-09-29",
-      "start": "11:20",
-      "end": "11:50",
-      "title": "The rise of women's health and femtech—why insuretech must catch up",
-      "location": "Health Connect Summit",
-      "stream": "Health Connect Summit"
+      "start": "11:15",
+      "end": "11:35",
+      "title": "AI strategic trends and operational insights: How technology continues to reshape our industry",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-29",
-      "start": "11:25",
-      "end": "11:50",
-      "title": "Probability is not proof: The future of fraud defense",
-      "location": "Claims Transformation & Fraud Summit",
-      "stream": "Claims Transformation & Fraud Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "11:30",
-      "end": "11:50",
-      "title": "From insight to impact: Winning in commercial lines with data and analytics, presented by WTW",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "11:40",
-      "end": "12:00",
-      "title": "Unlocking the AI multiplier, presented by Akur8",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "11:55",
-      "end": "12:15",
-      "title": "Point of receipt: Redefining claims risk detection, presented by Isomer",
-      "location": "Claims Transformation & Fraud Summit",
-      "stream": "Claims Transformation & Fraud Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "11:55",
-      "end": "12:05",
-      "title": "From AI pilots to business results: How insurance leaders can build and scale faster, presented by OIP",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "11:55",
-      "end": "12:15",
-      "title": "Pharmacy, GLP-1s and the new cost pressure on health benefits",
-      "location": "Health Connect Summit",
-      "stream": "Health Connect Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:00",
+      "start": "13:10",
       "end": "13:30",
-      "title": "Lunch Sponsored by Heathos",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:00",
-      "end": "16:00",
-      "title": "Viewpoint Ventures Summit: 5th annual strategy, corporate development & innovation summit",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:05",
-      "end": "12:25",
-      "title": "Governed agents at scale: Managing AI like a workforce, presented by Workday",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:10",
-      "end": "12:20",
-      "title": "The conditions for prevention-led insurance already exist",
-      "location": "Commercial & Specialty Lines Summit",
-      "stream": "Commercial & Specialty Lines Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:30",
-      "end": "18:00",
-      "title": "Datos Insights Summit: Why AI Transformations Stall in the Race to Operationalize AI",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:00",
-      "end": "17:00",
-      "title": "Celent Summit: Starting the Countdown to Agentic Insurance",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:00",
-      "end": "17:00",
-      "title": "Cognizant Summit",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:00",
-      "end": "17:00",
-      "title": "Sureify Life & Annuity Summit",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:00",
-      "end": "13:05",
-      "title": "Opening remarks, presented by Mea",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:05",
-      "end": "13:25",
-      "title": "The strategic priorities of the modern chief underwriting officer",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:25",
-      "end": "13:45",
-      "title": "Fight fire with fire: Conquering generative AI powered fraud for claims, presented by SAS",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:30",
-      "end": "17:00",
-      "title": "Alchemy Crew Ventures: AI Horizons 2030: The Readiness Problem",
-      "location": "ITC Sponsor-Curated Summits",
-      "stream": "ITC Sponsor-Curated Summits"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:30",
-      "end": "13:50",
-      "title": "The agentic underwriter: Is AI about to take over the underwriting lifecycle? Presented by Hexaware",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:50",
-      "end": "14:10",
-      "title": "Fireside chat: Portfolio intelligence: Managing risk in real time",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:55",
-      "end": "14:25",
-      "title": "From reactive to resilient: How tech is rewriting the rules of risk",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
+      "title": "AI through a human lens",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-29",
       "start": "14:00",
-      "end": "15:00",
-      "title": "First Timers Orientation",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "end": "14:20",
+      "title": "Agentic Al success with unified, real-time core data, presented by Reltio",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "Agentic commerce and the future of insurance distribution, presented by Stripe",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-29",
       "start": "14:15",
-      "end": "14:50",
-      "title": "Phase one has to pay: Sequencing an underwriting ecosystem by ROI and risk, presented by IntellectAI",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
+      "end": "14:35",
+      "title": "AI modernization without the pit stops",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
     },
     {
       "date": "2026-09-29",
-      "start": "14:30",
-      "end": "14:50",
-      "title": "AI-powered underwriting: Smarter risks, faster decisions, presented by Xceedance",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "14:55",
-      "end": "15:30",
-      "title": "From data to advantage: Turning insurance data assets into strategic value",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "14:55",
+      "start": "14:40",
       "end": "15:15",
-      "title": "Fireside chat: The future of underwriting — from craft to cognitive engine, presented by AWS",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
+      "title": "AI safety and governance in claims, presented by Assured",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-29",
-      "start": "15:00",
-      "end": "17:00",
-      "title": "State Farm Startup Pitch Competition",
-      "location": "State Farm Startup Pitch Competition",
-      "stream": "State Farm Startup Pitch Competition"
+      "start": "14:45",
+      "end": "15:25",
+      "title": "Agentic AI in Insurance: From Experimentation to Early Scale",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "15:10",
+      "end": "15:35",
+      "title": "AI barges in: Turning non-human coworkers into real business value",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "15:15",
+      "end": "15:50",
+      "title": "Aggregators, marketplaces and the fight for placement",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-29",
       "start": "15:20",
-      "end": "15:50",
-      "title": "Connected underwriting: From individual desk to integrated ecosystem",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
+      "end": "15:40",
+      "title": "Accelerating the digitization of B2B payments in healthcare, presented by Mastercard",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     },
     {
       "date": "2026-09-29",
       "start": "15:35",
       "end": "15:55",
       "title": "AI in distribution: Redesigning the workflows that drive new and renewal business, presented by Vertafore",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "15:55",
-      "end": "16:15",
-      "title": "Insurability of AI risks",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-29",
       "start": "16:00",
-      "end": "16:30",
-      "title": "Build, buy, or partner? The strategic AI decision facing insurers",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "16:20",
-      "end": "16:40",
-      "title": "Run the book: What it really takes to scale AI in underwriting, presented by Mea",
-      "location": "The Modern Underwriter Summit",
-      "stream": "The Modern Underwriter Summit"
+      "end": "16:20",
+      "title": "Advisor interview: From AI experiments to an enterprise operating model",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     },
     {
       "date": "2026-09-29",
       "start": "16:35",
       "end": "16:55",
       "title": "41% More binds: Lessons from an AI-first agency, presented by bolt",
-      "location": "AI-Powered Insurance Innovation Summit",
-      "stream": "AI-Powered Insurance Innovation Summit"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "17:00",
-      "end": "19:00",
-      "title": "ITC Vegas Official Kickoff Party",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "Badge Pickup Hours",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "07:00",
-      "end": "08:30",
-      "title": "Breakfast Sponsored by Heathos",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
       "start": "07:00",
       "end": "18:00",
       "title": "ITC Vegas Discovery Desk powered by CB Insights",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "07:00",
+      "end": "18:00",
+      "title": "Badge Pickup Hours",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "07:00",
+      "end": "17:00",
+      "title": "Badge Pickup Hours",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "07:00",
+      "end": "08:30",
+      "title": "Breakfast Sponsored by Heathos",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
       "start": "07:15",
       "end": "08:15",
       "title": "First Timers Expo Tour",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "08:00",
+      "end": "18:00",
+      "title": "LEARN MORE (opens in a new tab)",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "08:15",
       "end": "10:15",
       "title": "Wednesday Keynotes On the Main Stage",
-      "location": "Main Stage",
-      "stream": "Main Stage"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "08:45",
+      "end": "11:35",
+      "title": "Clearspeed TrustFaster Summit",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "Opening remarks, presented by Zurich",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "Opening remarks, presented by WTW",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "ITC LATAM opening remarks",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "17:00",
+      "title": "LEARN MORE (opens in a new tab)",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "09:00",
       "end": "18:00",
       "title": "Expo Floor Open",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "17:00",
+      "title": "Expo Floor Open",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "Opening remarks, presented by ServiceNow",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "09:05",
+      "title": "Opening remarks, presented by bolt",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "09:25",
+      "title": "TCS Summit welcome address",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:00",
+      "end": "13:00",
+      "title": "TCS Summit: Composing the AI-First Insurer",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:05",
+      "end": "09:25",
+      "title": "Closing the coverage gap with innovation in supplemental health and technology, presented by Zurich",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:05",
+      "end": "09:25",
+      "title": "The strategic rise of claims",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:05",
+      "end": "09:25",
+      "title": "The future of insurance: Powered by AI",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:05",
+      "end": "09:25",
+      "title": "AI-powered specialty distribution: Connecting opportunity to coverage, presented by bolt",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:10",
+      "end": "09:30",
+      "title": "Insurtech and AI: What’s at stake and what lies ahead?",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:25",
+      "end": "09:55",
+      "title": "Building the composable AI insurer",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:30",
+      "end": "09:50",
+      "title": "Designing the modern claims ecosystem: Integration, insight & performance, presented by WTW",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:30",
+      "end": "10:05",
+      "title": "The AI control tower: Orchestrating insurance operations end-to-end, presented by ServiceNow",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:30",
+      "end": "09:50",
+      "title": "Inside the tech-native commercial & specialty insurer",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:35",
+      "end": "09:50",
+      "title": "From AI to P&L: Lessons from building Tuio",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:55",
+      "end": "10:20",
+      "title": "America's care crisis: Finding opportunity and redefining the role of insurance",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:55",
+      "end": "10:30",
+      "title": "The autonomous claim: Scaling automation with confidence",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:55",
+      "end": "10:10",
+      "title": "The protection gap is an infrastructure problem, not a cost problem. How this AI-native company is solving it",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "09:55",
+      "end": "10:15",
+      "title": "Modernization that pays off: Real outcomes from an AI-first P&C transformation, presented by Sapiens",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
       "start": "10:00",
-      "end": "10:10",
-      "title": "Product demo: Closing the AI underwriting loop with pre-bind precision and post-bind proof, presented by IntellectAI",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "end": "10:30",
+      "title": "The AI ownership playbook: What the insurer owns",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:10",
+      "end": "10:30",
+      "title": "Why some insurers get value from AI and some don't, presented by Federato",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
       "start": "10:15",
-      "end": "10:25",
-      "title": "Product demo: One Inc",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "10:30",
-      "end": "11:00",
-      "title": "AI for insurance: Innovate around your core, presented by OneShield",
-      "location": "AI in Action",
-      "stream": "AI in Action"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "10:30",
       "end": "10:35",
-      "title": "Opening remarks, presented by Deloitte",
-      "location": "Capacity Connect Summit",
-      "stream": "Capacity Connect Summit"
+      "title": "The next generation of insurance distribution in Latin America: Ecosystems, embedded insurance & AI",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:20",
+      "end": "10:40",
+      "title": "Beyond digitization: Agentic API trading and the new architecture of specialty insurance",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:25",
+      "end": "10:45",
+      "title": "From risk to real-time: The digital health revolution in insurance",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
     },
     {
       "date": "2026-09-30",
       "start": "10:30",
-      "end": "10:35",
-      "title": "Opening remarks, presented by Salesforce",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "end": "12:30",
+      "title": "Founders Forum",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "11:30",
+      "title": "Most insurers deploy AI. The winners govern it.",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-30",
       "start": "10:30",
       "end": "10:35",
       "title": "Opening remarks, presented by Majesco",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "16:00",
+      "title": "Pegasystems Summit: Insurance Reimagined: Practical AI for Real Outcomes",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "11:30",
+      "title": "Pricing, packaging & AI monetization",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "14:00",
+      "title": "Winning Monetization and Sales Strategies for Insurtechs in the Age of AI In Partnership with Simon-Kucher",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by IBM",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "10:30",
       "end": "10:35",
       "title": "Opening remarks, presented by Microsoft",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "10:30",
-      "end": "10:40",
-      "title": "Product demo: Earnix Intelligent Decision Engine: Powered by AIOS",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "end": "10:35",
+      "title": "Opening remarks, presented by Deloitte",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by Salesforce",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "10:55",
+      "title": "Reconstruct. Resolve. Prevent.: The new commercial auto claims lifecycle, presented by MOTER",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
     },
     {
       "date": "2026-09-30",
       "start": "10:35",
       "end": "11:10",
-      "title": "From carve-out to launch: Building a scalable MGA for the AI-driven marketplace, presented by Deloitte",
-      "location": "Capacity Connect Summit",
-      "stream": "Capacity Connect Summit"
+      "title": "The AI-enabled advisor: Sales, suitability and retirement planning",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
     },
     {
       "date": "2026-09-30",
       "start": "10:35",
       "end": "11:10",
-      "title": "From pilot to agentic operating system: Scaling profitably, presented by Salesforce",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "10:35",
-      "end": "11:10",
-      "title": "The frontier insurer: A new AI operating paradigm, presented by Majesco",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "10:35",
-      "end": "11:10",
-      "title": "Rewriting the insurance value chain with agentic AI, presented by Microsoft",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "title": "Distribution 2.0: reimagining the broker & digital channel stack",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-30",
       "start": "10:35",
       "end": "11:10",
       "title": "Modernizing life & annuity policy administration systems",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "The frontier insurer: A new AI operating paradigm, presented by Majesco",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:05",
+      "title": "Building quantum resilience: The journey to quantum-safe cryptography, presented by IBM",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "From pilot to agentic operating system: Scaling profitably, presented by Salesforce",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "Rewriting the insurance value chain with agentic AI, presented by Microsoft",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "From carve-out to launch: Building a scalable MGA for the AI-driven marketplace, presented by Deloitte",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "10:55",
+      "title": "Learn how insurance companies use AI Agents to run their most mission-critical workflows, at scale, presented by Skan.ai",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:15",
+      "title": "The everyday AI playbook: A CTO’s guide to enterprise scale",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:40",
+      "end": "10:55",
+      "title": "The next insurance channel Is not a channel, presented by Mapfre",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:45",
+      "end": "11:10",
+      "title": "Parametric insurance: How AI, data, and distribution are redefining resilience",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
       "start": "10:45",
       "end": "10:55",
-      "title": "Product demo: Convr risk context engine",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:00",
-      "end": "11:10",
-      "title": "Product demo: Your AI needs a better view, presented by Vexcel",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:00",
-      "end": "12:00",
-      "title": "Claims Agent Masterclass: How to Build an Agent You'd Trust with a Claim",
-      "location": "Masterclass Series",
-      "stream": "Masterclass Series"
+      "title": "Product demo: The Future of Distribution Management: From disconnected systems to one orchestration layer, presented by Producerflow",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "11:00",
       "end": "12:00",
       "title": "LATAM field trip – “Get to know LATAM”",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "12:00",
+      "title": "LATAM global gathering: Meet other insurtechs from around the world",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "12:00",
+      "title": "Claims Agent Masterclass: How to Build an Agent You'd Trust with a Claim",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "11:20",
+      "title": "Outrunning fraud without slowing down growth, presented by Plaid",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
     },
     {
       "date": "2026-09-30",
       "start": "11:00",
       "end": "12:00",
       "title": "The $90 billion goodbye: Turning the claims moment into a growth engine",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Skillful means at work: Proactive on burnout — before it becomes a claim, presented by SkillfulMeans",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "11:45",
+      "title": "CB Insights Top 50 Insurtech Report: Unpacking the world’s most promising insurtech startups",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "11:10",
+      "title": "Product demo: Your AI needs a better view, presented by Vexcel",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "11:05",
       "end": "11:35",
       "title": "From chaos to clarity: Approaches to modernizing program business operations, presented by Quantiphi",
-      "location": "AI in Action",
-      "stream": "AI in Action"
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
-      "start": "11:15",
-      "end": "11:45",
-      "title": "What capital wants in 2026",
-      "location": "Capacity Connect Summit",
-      "stream": "Capacity Connect Summit"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:15",
-      "end": "11:35",
-      "title": "Acquisition is getting harder, now what?",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "start": "11:10",
+      "end": "11:40",
+      "title": "Cyber risk through the eyes of a CISO: The evolving role of cyber insurance",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "11:15",
       "end": "11:35",
-      "title": "AI strategic trends and operational insights: How technology continues to reshape our industry",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:15",
-      "end": "11:35",
-      "title": "When to build, when to partner, when to acquire",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:15",
-      "end": "11:25",
-      "title": "Product demo: US Rooftop Geocoding, presented by Smarty",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "title": "Building LatAm's #1 embedded insurance platform: What it actually takes to scale across 10+ markets, presented by Insurama",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "11:15",
       "end": "11:35",
       "title": "From modernization to momentum: How insurers are building for what's next in life & annuities, presented by Sapiens",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "When to build, when to partner, when to acquire",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "Build vs. buy is only half the decision: Fireside chat with Adam Landau (CIO, Berkshire Hathaway GUARD), presented by Further AI",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:45",
+      "title": "What capital wants in 2026",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:25",
+      "title": "Scaling insurance operations with AI powered document management, presented by Laserfiche",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "The claim that never happened",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:25",
+      "title": "Product demo: US Rooftop Geocoding, presented by Smarty",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:20",
+      "end": "11:50",
+      "title": "The rise of women's health and femtech—why insuretech must catch up",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:20",
+      "end": "11:50",
+      "title": "Architecting for intelligence: Integrating frontier models into the enterprise",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:25",
+      "end": "11:50",
+      "title": "Probability is not proof: The future of fraud defense",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
     },
     {
       "date": "2026-09-30",
       "start": "11:30",
       "end": "12:30",
       "title": "Black Leadership Forum",
-      "location": "ITC Community Meet-Ups",
-      "stream": "ITC Community Meet-Ups"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
       "start": "11:30",
-      "end": "11:40",
-      "title": "Product Demo: From transactional to transformational: Driving retention with modern payments, presented by Paymentus",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:40",
-      "end": "12:10",
-      "title": "When AI governance enables innovation, presented by Monitaur",
-      "location": "AI in Action",
-      "stream": "AI in Action"
+      "end": "11:50",
+      "title": "From insight to impact: Winning in commercial lines with data and analytics, presented by WTW",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
       "start": "11:40",
       "end": "12:00",
-      "title": "Connected distribution in action: Lessons from USAA's digital transformation journey, presented by bolt",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "title": "Closing the loop: Underwriting & pricing in the age of AI",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "11:40",
       "end": "12:00",
       "title": "Behind the door: Why the next wave of property risk intelligence starts inside the home, presented by Home Factors by PGM",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Connected distribution in action: Lessons from USAA's digital transformation journey, presented by bolt",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "11:40",
       "end": "12:00",
       "title": "The hidden engine of insurance growth, presented by INTX",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:10",
+      "title": "What is an AI-first insurance application? — Reimagining insurance operations with generative AI, presented by GenerativeX",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:10",
+      "title": "When AI governance enables innovation, presented by Monitaur",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Annuities in a high-rate environment: product design and distribution strategy",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
     },
     {
       "date": "2026-09-30",
       "start": "11:40",
       "end": "12:00",
       "title": "Make exec stakeholders venture literate fast: The translation layer every insurer needs",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "11:45",
-      "end": "11:55",
-      "title": "Product demo: SeekNow",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "end": "12:30",
+      "title": "Industry executive panel",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:45",
+      "end": "12:00",
+      "title": "The hidden cost of bad agency data: Why your distribution strategy — and your AI — depends on what's underneath it, presented by Neilson Marketing Services",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:45",
+      "end": "12:20",
+      "title": "The weaponization of AI and cyber insurance",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:50",
+      "end": "12:10",
+      "title": "From possibility to progress: Building the future of insurance, presented by Apryse",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "11:50",
       "end": "12:20",
       "title": "Building the MGAs of the future",
-      "location": "Capacity Connect Summit",
-      "stream": "Capacity Connect Summit"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:55",
+      "end": "12:15",
+      "title": "Pharmacy, GLP-1s and the new cost pressure on health benefits",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:55",
+      "end": "12:15",
+      "title": "Point of receipt: Redefining claims risk detection, presented by Isomer",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:55",
+      "end": "12:05",
+      "title": "From AI pilots to business results: How insurance leaders can build and scale faster, presented by OIP",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:55",
+      "end": "12:25",
+      "title": "How ‘Infrastructure as a strategy’ powers intelligent insurance enterprise",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
     },
     {
       "date": "2026-09-30",
       "start": "12:00",
-      "end": "13:30",
-      "title": "Lunch Sponsored by Heathos",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "end": "12:45",
+      "title": "Networking Lunch",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     },
     {
       "date": "2026-09-30",
       "start": "12:00",
       "end": "13:00",
       "title": "ChatGPT as an insurance distribution channel? Tuio and Mapfre in conversation",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Fourth annual foosball tournament - hosted by AIP",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Sponsored by Heathos",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "12:05",
       "end": "12:25",
-      "title": "What makes AI successful at enterprise scale: AI friendly APIs, presented by InsureMO",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "title": "The AI-enabled benefits lifecycle",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:20",
+      "title": "From 18 months to 6 Weeks: How Mexico's largest insurer built a startup-speed innovation lab for 17,000 agents",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "12:05",
       "end": "12:40",
       "title": "Faster hands, or a smarter brain? The different kinds of agentic AI, presented by Federato",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-30",
       "start": "12:05",
       "end": "12:40",
       "title": "Beyond telematics: AI, vehicle intelligence, and the future of insurance, presented by Milliman",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "Governed agents at scale: Managing AI like a workforce, presented by Workday",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
       "start": "12:05",
       "end": "12:25",
       "title": "What agentic AI actually costs to run: Lessons from insurers in production, presented by Neutrinos",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "What makes AI successful at enterprise scale: AI friendly APIs, presented by InsureMO",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:10",
+      "end": "12:20",
+      "title": "The conditions for prevention-led insurance already exist",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:15",
+      "end": "12:35",
+      "title": "Reimagining customer engagement through AI at a 165-year-old insurance company",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:30",
+      "end": "18:00",
+      "title": "Datos Insights Summit: Why AI Transformations Stall in the Race to Operationalize AI",
+      "location": "Mandalay Bay Ballroom D",
+      "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:30",
+      "end": "12:40",
+      "title": "How did an insurer increase enrollment 114%? presented by TruAgents",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:30",
+      "end": "12:50",
+      "title": "The quantum horizon: Exploring the next wave of research and capabilities poised to transform the insurance industry",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
     },
     {
       "date": "2026-09-30",
       "start": "12:30",
       "end": "14:00",
       "title": "Modern platform. Intelligent operations. Real outcomes. Presented by IBM",
-      "location": "Lunch Seminar",
-      "stream": "Lunch Seminar"
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:45",
+      "end": "13:05",
+      "title": "Opening remarks and state of insurtech",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
       "start": "13:00",
       "end": "14:00",
       "title": "RISE young professionals meet-up",
-      "location": "ITC Community Meet-Ups",
-      "stream": "ITC Community Meet-Ups"
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:00",
+      "end": "13:10",
+      "title": "Opening remarks",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:00",
+      "end": "13:05",
+      "title": "Opening remarks, presented by Mea",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:00",
+      "end": "13:15",
+      "title": "Welcome and introductions",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:00",
+      "end": "17:00",
+      "title": "Sureify Life & Annuity Summit",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:00",
+      "end": "17:00",
+      "title": "Celent Summit: Starting the Countdown to Agentic Insurance",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:00",
+      "end": "17:00",
+      "title": "Cognizant Summit",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:00",
+      "end": "13:10",
+      "title": "Intelligence ceded: Cognitive debt in insurance",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:05",
+      "end": "13:10",
+      "title": "Opening Remarks",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:05",
+      "end": "13:25",
+      "title": "The strategic priorities of the modern chief underwriting officer",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:10",
+      "end": "13:20",
+      "title": "Keynote Opening “Go as fast as you want”",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:10",
+      "end": "13:30",
+      "title": "Why transformations stall in the race to operationalize AI",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:15",
+      "end": "14:00",
+      "title": "Driving sales effectiveness",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:15",
+      "end": "13:55",
+      "title": "Insurtech: Are we so back?",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:20",
+      "end": "13:50",
+      "title": "AI: The great equalizer or the great divide?",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:20",
+      "end": "13:40",
+      "title": "Growth demand has a speed. Match it.",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:20",
+      "end": "13:40",
+      "title": "From call centers to WhatsApp distribution: Insurance AI in action",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:25",
+      "end": "13:45",
+      "title": "Fight fire with fire: Conquering generative AI powered fraud for claims, presented by SAS",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:30",
+      "end": "17:00",
+      "title": "Alchemy Crew Ventures: AI Horizons 2030: The Readiness Problem",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:30",
+      "end": "13:55",
+      "title": "Evolving from individual judgment to the enterprise intelligence advantage",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:30",
+      "end": "14:30",
+      "title": "Claims reimagined: AI at every touchpoint",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:30",
+      "end": "14:15",
+      "title": "The agentic insurer — from AI ambition to action, presented by AWS",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:30",
+      "end": "13:50",
+      "title": "The agentic underwriter: Is AI about to take over the underwriting lifecycle? Presented by Hexaware",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Re-engineer or evolve: Two paths to agentic AI, presented by Camunda",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
       "start": "13:30",
       "end": "14:00",
       "title": "Taking action in claims with agentic AI, presented by Bevaya",
-      "location": "AI in Action",
-      "stream": "AI in Action"
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
-      "start": "14:00",
-      "end": "14:20",
-      "title": "The future of distribution: AI-powered connectivity across the commercial ecosystem, presented by Applied Systems",
-      "location": "Capacity Connect Summit",
-      "stream": "Capacity Connect Summit"
+      "start": "13:30",
+      "end": "13:40",
+      "title": "Artificial intelligence needs human intelligence",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
-      "start": "14:00",
-      "end": "14:20",
-      "title": "Agentic commerce and the future of insurance distribution, presented by Stripe",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "start": "13:35",
+      "end": "14:05",
+      "title": "The new shape of distribution",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
-      "start": "14:00",
-      "end": "14:20",
-      "title": "Agentic Al success with unified, real-time core data, presented by Reltio",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
+      "start": "13:40",
+      "end": "14:00",
+      "title": "Roundtable Discussions",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
     },
     {
       "date": "2026-09-30",
-      "start": "14:00",
-      "end": "14:20",
-      "title": "How Nationwide and LeakBot proactively prevent water damage, presented by LeakBot",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "start": "13:40",
+      "end": "14:05",
+      "title": "Chasing business value in the age of AI",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
-      "start": "14:00",
+      "start": "13:45",
+      "end": "14:05",
+      "title": "Inside Pacifico’s legacy system overhaul: A case study on digital AI transformation",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:50",
       "end": "14:10",
-      "title": "Product demo: TruVideo Clarity",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "title": "Fireside chat: Portfolio intelligence: Managing risk in real time",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
-      "start": "14:00",
-      "end": "14:10",
-      "title": "One intelligent operations platform. Unlimited possibilities, presented by Solvrays",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
+      "start": "13:55",
+      "end": "14:20",
+      "title": "Beyond the pilot: How Falcon Risk Services scaled intelligent underwriting and eliminated workflow friction",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "13:55",
+      "end": "14:25",
+      "title": "From reactive to resilient: How tech is rewriting the rules of risk",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "14:00",
       "end": "15:00",
       "title": "AIP breaking news and official ITC LATAM photo",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:15",
+      "title": "Fireside Chat",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
     },
     {
       "date": "2026-09-30",
       "start": "14:00",
       "end": "15:00",
       "title": "Closing the staggering L&AH protection gap, presented by Majesco",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "One intelligent operations platform. Unlimited possibilities, presented by Solvrays",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:40",
+      "title": "Payments in insurance: Bridging the gap between policyholders and carriers",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:30",
+      "title": "Beyond the $10 billion ceiling: Underwriting cyber risk in a post-quantum world",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "How Nationwide and LeakBot proactively prevent water damage, presented by LeakBot",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:30",
+      "title": "Break your news",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "Can digital transformation outrun AI fraud? Presented by Socure",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "The future of distribution: AI-powered connectivity across the commercial ecosystem, presented by Applied Systems",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "15:00",
+      "title": "First Timers Orientation",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "Suitability and compliance in digital annuity sales",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "Product demo: TruVideo Clarity",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "Product demo: Variabl",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:05",
+      "end": "14:35",
+      "title": "Receipts to roadmap, presented by Liberate",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
       "start": "14:05",
       "end": "14:35",
       "title": "Stop leaving claims risk on the table, presented by Clara Analytics",
-      "location": "AI in Action",
-      "stream": "AI in Action"
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:05",
+      "end": "14:20",
+      "title": "Engineering beyond the blur: A practical approach to bridging the AI value gap",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:10",
+      "end": "14:40",
+      "title": "The distribution evolution: Three founders, three continents, and the future of life insurance",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "14:15",
-      "end": "14:25",
-      "title": "Product Demo: Hyland AI‑powered claims decisions",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "end": "14:50",
+      "title": "Phase one has to pay: Sequencing an underwriting ecosystem by ROI and risk, presented by IntellectAI",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
       "start": "14:15",
       "end": "14:50",
       "title": "Beyond automation: Building the AI-native insurance operating model, presented by PwC",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:20",
+      "end": "14:40",
+      "title": "Networking break",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:20",
+      "end": "15:00",
+      "title": "Progressive use-case solution showcase (Session 1)",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "14:25",
       "end": "14:45",
-      "title": "The AI arms race: Who will win in the next era of insurance? The opportunity, risk and real-world impact of AI across insurance, presented by Shift Technology",
-      "location": "Capacity Connect Summit",
-      "stream": "Capacity Connect Summit"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:25",
-      "end": "14:35",
-      "title": "Embedded insurance, reimagined: From distribution to orchestration to agentic growth, presented by Mapfre",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "title": "Beyond the buzz: From reactive to predictive AI in insurance turning emerging AI into smarter risk intelligence",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     },
     {
       "date": "2026-09-30",
       "start": "14:25",
       "end": "14:35",
       "title": "The real cost of 'lift and shift'",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-30",
       "start": "14:25",
       "end": "14:35",
       "title": "The new safety net: Insurtech + carriers",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:25",
+      "end": "14:45",
+      "title": "The AI arms race: Who will win in the next era of insurance? The opportunity, risk and real-world impact of AI across insurance, presented by Shift Technology",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:25",
+      "end": "14:35",
+      "title": "Embedded insurance, reimagined: From distribution to orchestration to agentic growth, presented by Mapfre",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "14:30",
-      "end": "16:00",
-      "title": "VC Office Hours",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "end": "14:50",
+      "title": "AI-powered underwriting: Smarter risks, faster decisions, presented by Xceedance",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
-      "start": "14:30",
-      "end": "14:40",
-      "title": "Product demo: Filevine",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "start": "14:35",
+      "end": "14:55",
+      "title": "Roundtable Discussions",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:35",
+      "end": "14:55",
+      "title": "Anatomy of a cyber claim",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "14:40",
-      "end": "15:10",
-      "title": "From intake to outcome: How Palomar automated servicing, presented by Pace",
-      "location": "AI in Action",
-      "stream": "AI in Action"
+      "end": "15:05",
+      "title": "How agentic AI is providing competitive advantage, not just cost savings",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     },
     {
       "date": "2026-09-30",
       "start": "14:40",
       "end": "15:15",
       "title": "From lead to loyal: Winning the modern insurance customer funnel",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:40",
-      "end": "15:15",
-      "title": "AI safety and governance in claims, presented by Assured",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "14:40",
       "end": "15:15",
       "title": "The orchestrated carrier, presented by Duck Creek",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:40",
+      "end": "15:10",
+      "title": "From intake to outcome: How Palomar automated servicing, presented by Pace",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:40",
+      "end": "15:10",
+      "title": "When AI gets faster, should humans get slower? Inside Mutual of Omaha's AI transformation, presented by Cresta.AI",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:45",
+      "end": "15:05",
+      "title": "Rethinking insurance journeys in a data-driven world",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:45",
+      "end": "15:15",
+      "title": "Rewiring the org: How incumbents are restructuring to run on AI",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "14:45",
       "end": "14:55",
       "title": "Product demo: Zero to product in 10 Minutes with AI, presented by Socotra",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "14:50",
       "end": "15:20",
       "title": "Capital meets capacity: The live market",
-      "location": "Capacity Connect Summit",
-      "stream": "Capacity Connect Summit"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
       "start": "14:55",
       "end": "15:15",
       "title": "The next era of health insurance is AI-native",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:55",
+      "end": "15:15",
+      "title": "Fireside chat: The future of underwriting — from craft to cognitive engine, presented by AWS",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:55",
+      "end": "15:30",
+      "title": "From data to advantage: Turning insurance data assets into strategic value",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
       "start": "15:00",
       "end": "17:00",
       "title": "Women’s Leadership Forum, Sponsored by Sikich and Unitary",
-      "location": "ITC Community Meet-Ups",
-      "stream": "ITC Community Meet-Ups"
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "15:00",
-      "end": "15:10",
-      "title": "Product demo: DSW UnifyAI OS - The enterprise AI operating system, presented by Data Science Wizards",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "end": "16:00",
+      "title": "Women in insurance: Leading through a time of AI disruption",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:00",
+      "end": "15:35",
+      "title": "Cyber risk Q&A: Our experts - your questions",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "15:00",
       "end": "16:00",
       "title": "How global insurers are driving innovation: Lessons from Brazil and Latin America",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:00",
+      "end": "17:00",
+      "title": "LEARN MORE (opens in a new tab)",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:00",
+      "end": "15:05",
+      "title": "State Farm Startup Pitch Competition: Opening Remarks presented by State Farm",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:00",
+      "end": "15:10",
+      "title": "Redefining inclusivity for human-AI interactions",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:05",
+      "end": "15:30",
+      "title": "From AI ambition to action: Modernizing claims without replacing the core",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:05",
+      "end": "15:15",
+      "title": "State Farm Startup Pitch Competition: Fair Warranty",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:10",
+      "end": "15:40",
+      "title": "Leadership Panel: Shaking off legacy mindsets",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
     },
     {
       "date": "2026-09-30",
       "start": "15:15",
-      "end": "16:15",
-      "title": "Matterport Bourbon Tasting",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "end": "16:30",
+      "title": "Expo Floor Happy Hour",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:15",
+      "end": "15:25",
+      "title": "The Future of Superintelligent Vision, presented by Matter",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:15",
+      "end": "15:45",
+      "title": "Rebuilding the engine mid-flight: AI-powered core modernization, presented by LTM",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
       "start": "15:15",
       "end": "15:45",
       "title": "Who owns the algorithm? AI accountability in the modern insurer",
-      "location": "AI in Action",
-      "stream": "AI in Action"
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:15",
+      "end": "15:25",
+      "title": "State Farm Startup Pitch Competition: Friendly",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:15",
+      "end": "16:15",
+      "title": "Matterport Bourbon Tasting",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "15:15",
       "end": "15:25",
       "title": "Product demo: Signal Fuse, presented by Data Axle",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:20",
-      "end": "15:40",
-      "title": "Accelerating the digitization of B2B payments in healthcare, presented by Mastercard",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:20",
-      "end": "15:40",
-      "title": "Claims transformation without claims chaos",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:20",
-      "end": "15:40",
-      "title": "Autonomous mobility insurance: Rewriting risk in a driverless world",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
       "start": "15:20",
       "end": "15:55",
       "title": "Group benefits technology: Enrollment, eligibility and data accuracy",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:40",
+      "title": "Embedded insurance at scale: Lessons from Latin America",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:40",
+      "title": "Claims transformation without claims chaos",
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:40",
+      "title": "Autonomous mobility insurance: Rewriting risk in a driverless world",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:50",
+      "title": "Connected underwriting: From individual desk to integrated ecosystem",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:25",
+      "end": "15:35",
+      "title": "State Farm Startup Pitch Competition: InQuery",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
     },
     {
       "date": "2026-09-30",
       "start": "15:30",
-      "end": "15:40",
-      "title": "Product demo: From one address to an entire market: DataTree® in action, presented by First American Data & Analytics",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "end": "15:45",
+      "title": "Networking break",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:30",
+      "end": "16:10",
+      "title": "Governance takes center stage",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:35",
+      "end": "15:45",
+      "title": "State Farm Startup Pitch Competition: Prediction Lab",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:35",
+      "end": "17:00",
+      "title": "Progressive use-case solution showcase (Session 2)",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:40",
+      "end": "15:50",
+      "title": "Final Remarks",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:45",
+      "end": "16:00",
+      "title": "Business model implications of AI, presented by the Life/Annuity/Benefits Team",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     },
     {
       "date": "2026-09-30",
       "start": "15:45",
       "end": "16:20",
       "title": "Embedded insurance and strategic partnerships: new paths to market",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "15:45",
       "end": "16:20",
       "title": "Where the rubber meets the rate: How real-time traffic is redefining territory rating, presented by TomTom",
-      "location": "Innovation Through Operational Efficiency",
-      "stream": "Innovation Through Operational Efficiency"
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-30",
       "start": "15:45",
       "end": "16:20",
       "title": "Collaboration over competition: Hagerty's technology-enabled partner ecosystem for people who love cars",
-      "location": "Innovation Through Strategic Foresight",
-      "stream": "Innovation Through Strategic Foresight"
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
-      "start": "15:50",
-      "end": "16:20",
-      "title": "Transforming insurance SDLC with AI & agentic orchestration, presented by Aggne",
-      "location": "AI in Action",
-      "stream": "AI in Action"
+      "start": "15:45",
+      "end": "15:55",
+      "title": "State Farm Startup Pitch Competition: Producerflow",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:55",
+      "end": "16:15",
+      "title": "Insurability of AI risks",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Happy Hour",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
     },
     {
       "date": "2026-09-30",
       "start": "16:00",
       "end": "17:00",
       "title": "Insurance in the frontier era: Turning intelligence into impact, presented by Microsoft",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Build, buy, or partner? The strategic AI decision facing insurers",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:00",
+      "end": "16:10",
+      "title": "State Farm Startup Pitch Competition: Phyll",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:05",
+      "end": "16:20",
+      "title": "Is AI LATAM’s ‘leapfrog’ moment? What China did for payments, LATAM can do with insurance",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:10",
+      "end": "16:20",
+      "title": "State Farm Startup Pitch Competition: Salvato Auctions",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
     },
     {
       "date": "2026-09-30",
       "start": "16:15",
       "end": "17:30",
       "title": "Expo Floor Happy Hour",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "location": "Mandalay Bay Ballroom I",
+      "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:15",
+      "end": "16:55",
+      "title": "When is it time to abandon incrementalism?",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
       "start": "16:15",
       "end": "17:30",
       "title": "Happy Hour Sponsored by MetLife",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:20",
+      "end": "16:25",
+      "title": "Intro to topic-based networking tables",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:20",
+      "end": "16:40",
+      "title": "Run the book: What it really takes to scale AI in underwriting, presented by Mea",
+      "location": "Mandalay Bay Ballroom J",
+      "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:20",
+      "end": "16:30",
+      "title": "State Farm Startup Pitch Competition: Orbital Sentry",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:25",
+      "end": "16:50",
+      "title": "Your AI strategy begins with fixing the core. Inside GNP’s core modernization",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:30",
+      "end": "16:40",
+      "title": "State Farm Startup Pitch Competition: Trussed AI",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:40",
+      "end": "16:50",
+      "title": "State Farm Startup Pitch Competition: Warrant",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:50",
+      "end": "16:55",
+      "title": "State Farm Startup Pitch Competition: Final Voting",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:55",
+      "end": "17:00",
+      "title": "Wrap up and next steps",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:55",
+      "end": "17:00",
+      "title": "State Farm Startup Pitch Competition: Winner Announced",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "16:55",
+      "end": "17:00",
+      "title": "Closing reflections and next steps",
+      "location": "Reef Ballroom EF",
+      "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "17:00",
+      "end": "19:00",
+      "title": "ITC Vegas Official Kickoff Party",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "17:00",
+      "end": "18:00",
+      "title": "Cocktail reception",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "17:00",
+      "end": "19:00",
+      "title": "ITC LATAM Happy Hour",
+      "location": "Mandalay Bay Ballroom F",
+      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-30",
       "start": "17:00",
       "end": "19:00",
       "title": "C-Suite Reception Sponsored by Buddy, INTX, Majesco, Percipience, and Snapsheet,",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
-      "date": "2026-10-01",
-      "start": "07:00",
-      "end": "17:00",
-      "title": "Badge Pickup Hours",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "07:00",
-      "end": "08:30",
-      "title": "Breakfast Sponsored by Heathos",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "ITC Vegas Discovery Desk powered by CB Insights",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "date": "2026-09-30",
+      "start": "20:00",
+      "end": "22:00",
+      "title": "ITC Vegas Official Closing Party featuring the Gin Blossoms!",
+      "location": "Breakers Ballroom DE",
+      "stream": "Breakers Ballroom DE"
     },
     {
       "date": "2026-10-01",
       "start": "08:15",
       "end": "10:10",
       "title": "Thursday Keynotes On the Main Stage",
-      "location": "Main Stage",
-      "stream": "Main Stage"
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     },
     {
       "date": "2026-10-01",
-      "start": "09:00",
-      "end": "17:00",
-      "title": "Expo Floor Open",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:00",
-      "end": "10:10",
-      "title": "Product demo: Quadient Evolve: AI-powered template generator, presented by Quadient",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:15",
-      "end": "10:25",
-      "title": "Product demo: Adopt AI",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "11:00",
-      "title": "AI priced it. Who signed It? The technical function reimagined by AI, presented by WTW",
-      "location": "AI in Action",
-      "stream": "AI in Action"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "10:35",
-      "title": "Opening remarks, presented by IBM",
-      "location": "Cyber Innovation Summit",
-      "stream": "Cyber Innovation Summit"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "11:45",
-      "title": "A facilitated peer conversation on driving behavior data, pricing, and growth. Presented by Arity",
-      "location": "Deep Dives",
-      "stream": "Deep Dives"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "10:35",
-      "title": "Opening remarks, presented by Salesforce",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "12:30",
-      "title": "Founders Forum",
-      "location": "ITC Community Meet-Ups",
-      "stream": "ITC Community Meet-Ups"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "10:40",
-      "title": "Product demo: Balto.ai",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "14:00",
-      "title": "Winning Monetization and Sales Strategies for Insurtechs in the Age of AI In Partnership with Simon-Kucher",
-      "location": "Masterclass Series",
-      "stream": "Masterclass Series"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:35",
-      "end": "11:05",
-      "title": "Building quantum resilience: The journey to quantum-safe cryptography, presented by IBM",
-      "location": "Cyber Innovation Summit",
-      "stream": "Cyber Innovation Summit"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:35",
-      "end": "11:10",
-      "title": "Distribution 2.0: reimagining the broker & digital channel stack",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:35",
-      "end": "11:10",
-      "title": "The AI-enabled advisor: Sales, suitability and retirement planning",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:45",
-      "end": "10:55",
-      "title": "Product demo: The Future of Distribution Management: From disconnected systems to one orchestration layer, presented by Producerflow",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:00",
-      "end": "11:45",
-      "title": "CB Insights Top 50 Insurtech Report: Unpacking the world’s most promising insurtech startups",
-      "location": "Deep Dives",
-      "stream": "Deep Dives"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:00",
-      "end": "11:10",
-      "title": "Product demo: AI Agents for customer interactions, presented by InfiniteWatch",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:00",
-      "end": "12:00",
-      "title": "LATAM global gathering: Meet other insurtechs from around the world",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:00",
-      "end": "11:30",
-      "title": "Skillful means at work: Proactive on burnout — before it becomes a claim, presented by SkillfulMeans",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:05",
-      "end": "11:35",
-      "title": "Agentic AI: Grounded in context. Committed to business outcomes, presented by Plutus",
-      "location": "AI in Action",
-      "stream": "AI in Action"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:10",
-      "end": "11:40",
-      "title": "Cyber risk through the eyes of a CISO: The evolving role of cyber insurance",
-      "location": "Cyber Innovation Summit",
-      "stream": "Cyber Innovation Summit"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:15",
-      "end": "11:35",
-      "title": "Build vs. buy is only half the decision: Fireside chat with Adam Landau (CIO, Berkshire Hathaway GUARD), presented by Further AI",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:15",
-      "end": "11:25",
-      "title": "Product demo: Indemn Digital Workforce",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:15",
-      "end": "11:35",
-      "title": "The claim that never happened",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:30",
-      "end": "11:40",
-      "title": "Product demo: Driving trust: Empowering consumers through telematics, presented by TransUnion",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:40",
-      "end": "12:10",
-      "title": "What is an AI-first insurance application? — Reimagining insurance operations with generative AI, presented by GenerativeX",
-      "location": "AI in Action",
-      "stream": "AI in Action"
+      "start": "09:30",
+      "end": "09:50",
+      "title": "Underwriting risk in a data-rich environment: Turning healthcare data into underwriting alpha",
+      "location": "Breakers Ballroom BC",
+      "stream": "Breakers Ballroom BC"
     },
     {
       "date": "2026-10-01",
       "start": "11:40",
       "end": "12:00",
-      "title": "Annuities in a high-rate environment: product design and distribution strategy",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:45",
-      "end": "12:20",
-      "title": "The weaponization of AI and cyber insurance",
-      "location": "Cyber Innovation Summit",
-      "stream": "Cyber Innovation Summit"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:45",
-      "end": "12:00",
-      "title": "The hidden cost of bad agency data: Why your distribution strategy — and your AI — depends on what's underneath it, presented by Neilson Marketing Services",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:50",
-      "end": "12:10",
-      "title": "From possibility to progress: Building the future of insurance, presented by Apryse",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "title": "Unlocking the AI multiplier, presented by Akur8",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-10-01",
       "start": "12:00",
-      "end": "13:30",
-      "title": "Lunch Sponsored by Heathos",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "12:00",
-      "end": "13:00",
-      "title": "Fourth annual foosball tournament - hosted by AIP",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "12:05",
-      "end": "12:25",
-      "title": "The AI-enabled benefits lifecycle",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "12:15",
-      "end": "12:35",
-      "title": "Reimagining customer engagement through AI at a 165-year-old insurance company",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "12:30",
-      "end": "12:40",
-      "title": "How did an insurer increase enrollment 114%? presented by TruAgents",
-      "location": "Life, Health & Benefits",
-      "stream": "Life, Health & Benefits"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "13:30",
-      "end": "14:00",
-      "title": "Re-engineer or evolve: Two paths to agentic AI, presented by Camunda",
-      "location": "AI in Action",
-      "stream": "AI in Action"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "13:30",
-      "end": "14:15",
-      "title": "The agentic insurer — from AI ambition to action, presented by AWS",
-      "location": "ITC Community Meet-Ups",
-      "stream": "ITC Community Meet-Ups"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:00",
-      "end": "14:30",
-      "title": "Beyond the $10 billion ceiling: Underwriting cyber risk in a post-quantum world",
-      "location": "Cyber Innovation Summit",
-      "stream": "Cyber Innovation Summit"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:00",
-      "end": "14:20",
-      "title": "Can digital transformation outrun AI fraud? Presented by Socure",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:00",
-      "end": "14:10",
-      "title": "Product demo: Variabl",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:00",
-      "end": "14:30",
-      "title": "Break your news",
-      "location": "Town Square Takeovers",
-      "stream": "Town Square Takeovers"
+      "end": "16:00",
+      "title": "Viewpoint Ventures Summit: 5th annual strategy, corporate development & innovation summit",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-10-01",
       "start": "14:05",
-      "end": "14:35",
-      "title": "Receipts to roadmap, presented by Liberate",
-      "location": "AI in Action",
-      "stream": "AI in Action"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:15",
-      "end": "14:25",
-      "title": "Product demo: AODocs",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:25",
       "end": "14:45",
-      "title": "Beyond the buzz: From reactive to predictive AI in insurance turning emerging AI into smarter risk intelligence",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "title": "View from Wall Street: Bulls, bears, and black boxes",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-10-01",
       "start": "14:30",
-      "end": "14:40",
-      "title": "Product demo: ePayPolicy",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:35",
-      "end": "14:55",
-      "title": "Anatomy of a cyber claim",
-      "location": "Cyber Innovation Summit",
-      "stream": "Cyber Innovation Summit"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:40",
-      "end": "15:10",
-      "title": "When AI gets faster, should humans get slower? Inside Mutual of Omaha's AI transformation, presented by Cresta.AI",
-      "location": "AI in Action",
-      "stream": "AI in Action"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:45",
-      "end": "14:55",
-      "title": "Product demo: G1 Platform (Powered By Growth Insurance)",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
+      "end": "16:00",
+      "title": "VC Office Hours",
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-10-01",
       "start": "14:50",
       "end": "15:10",
       "title": "Universal accessibility in documents: Essential for some, better for all",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
+      "location": "Mandalay Bay Ballroom K",
+      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-10-01",
-      "start": "15:00",
-      "end": "15:35",
-      "title": "Cyber risk Q&A: Our experts - your questions",
-      "location": "Cyber Innovation Summit",
-      "stream": "Cyber Innovation Summit"
+      "start": "15:50",
+      "end": "16:20",
+      "title": "Transforming insurance SDLC with AI & agentic orchestration, presented by Aggne",
+      "location": "Mandalay Bay Ballroom L",
+      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-10-01",
-      "start": "15:00",
-      "end": "15:10",
-      "title": "Product demo: From Submission to Policy Issuance, presented by Mulberri",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "15:15",
-      "end": "16:30",
-      "title": "Expo Floor Happy Hour",
-      "location": "Event Information",
-      "stream": "Event Information"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "15:15",
-      "end": "15:45",
-      "title": "Rebuilding the engine mid-flight: AI-powered core modernization, presented by LTM",
-      "location": "AI in Action",
-      "stream": "AI in Action"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "15:15",
-      "end": "15:50",
-      "title": "Aggregators, marketplaces and the fight for placement",
-      "location": "Innovation Through Growth",
-      "stream": "Innovation Through Growth"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "15:15",
-      "end": "15:25",
-      "title": "The Future of Superintelligent Vision, presented by Matter",
-      "location": "ITC Solutions Stage",
-      "stream": "ITC Solutions Stage"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "20:00",
-      "end": "22:00",
-      "title": "ITC Vegas Official Closing Party featuring the Gin Blossoms!",
-      "location": "Event Information",
-      "stream": "Event Information"
+      "start": "16:25",
+      "end": "17:00",
+      "title": "Topic-based networking tables",
+      "location": "Lagoon Ballroom KL",
+      "stream": "Lagoon Ballroom KL"
     }
   ],
-  "updatedAt": "2026-09-27T14:02:23Z",
-  "sourceHash": "8fbd5840049b355e9aa587563ff5ba7df1f0f89f7605507f646905cef2530221",
-  "scheduleHash": "5ff65528e79bd563fc6fee84d902015e663f6925089171ba79dc1b5c6c1e7301"
+  "updatedAt": "2026-09-29T14:44:15Z",
+  "sourceHash": "892c742acd2eaebdd988474e6fd9d4ee6dc383672b7e134a58e43a02e3af9ac6",
+  "scheduleHash": "976679aa06b29da4d7f734c75587312e8f53d62d905d98ed5bc3a3f54a1ed5e0"
 }
