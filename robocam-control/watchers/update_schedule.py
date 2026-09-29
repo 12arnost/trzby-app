@@ -273,6 +273,14 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
     allow_overlaps = bool(profile.get("allowOverlaps"))
 
     soup = BeautifulSoup(html, "html.parser")
+    if profile.get("id") == "itc-vegas-2026":
+        for inp in soup.find_all("input"):
+            attrs = dict(inp.attrs)
+            blob = " ".join(str(v) for v in attrs.values())
+            parent_text = tag_text(inp.parent)[:300] if isinstance(inp.parent, Tag) else ""
+            probe = (blob + " " + parent_text).lower()
+            if any(token in probe for token in ("september 29", "september 30", "october 01", "date")):
+                print(f"[schedule-watcher][filter-input] attrs={attrs} parent={parent_text!r}")
     all_tags = soup.find_all(True)
     order = {id(tag): idx for idx, tag in enumerate(all_tags)}
 
