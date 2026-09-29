@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "itc-vegas-2026",
-  "version": "2026-09-29-rooms-b",
+  "version": "2026-09-29-rooms-c",
   "name": "ITC Vegas 2026",
   "shortName": "ITC",
   "timezone": "America/Los_Angeles",
@@ -53,7 +53,7 @@
   "schedule": {
     "sourceType": "json",
     "dataUrl": "https://raw.githubusercontent.com/12arnost/trzby-app/main/robocam-control/events/itc-vegas-2026-schedule.json",
-    "fallbackUrl": "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda",
+    "fallbackUrl": "https://vegas.insuretechconnect.com/2026-agenda",
     "refreshMinutes": 5,
     "minSessions": 70
   },
@@ -61,7 +61,7 @@
     "enabled": true,
     "parserPreset": "generic-dom-v1",
     "sourceUrls": [
-      "https://vegas.insuretechconnect.com/agenda-speakers/2026-agenda"
+      "https://vegas.insuretechconnect.com/2026-agenda"
     ],
     "outputPath": "robocam-control/events/itc-vegas-2026-schedule.json",
     "minSessions": 70,
