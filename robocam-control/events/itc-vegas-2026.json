@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "itc-vegas-2026",
-  "version": "2026-09-29-rooms-c",
+  "version": "2026-09-29-rooms-d",
   "name": "ITC Vegas 2026",
   "shortName": "ITC",
   "timezone": "America/Los_Angeles",
@@ -61,7 +61,9 @@
     "enabled": true,
     "parserPreset": "generic-dom-v1",
     "sourceUrls": [
-      "https://vegas.insuretechconnect.com/2026-agenda"
+      "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=29-Sep-2026",
+      "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=30-Sep-2026",
+      "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=01-Oct-2026"
     ],
     "outputPath": "robocam-control/events/itc-vegas-2026-schedule.json",
     "minSessions": 70,
