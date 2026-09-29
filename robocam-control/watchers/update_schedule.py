@@ -154,7 +154,7 @@ def bad_title(text: str, locations: list[str]) -> bool:
     if re.match(
         r"^(learn more|register(?: now)?|speakers?|session moderator|presented by|headline sponsor|"
         r"sponsored by|view|image:|search|filters?|read more|panell?ists?|moderator|chair|free to attend)"
-        r"(?:\\s*\\(.*\\))?$",
+        r"(?:\s*\(.*\))?$",
         value,
         re.I,
     ):
@@ -313,14 +313,11 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
             else:
                 break
 
-        # The physical room may live outside the smallest card wrapper, so look
-        # immediately after the title link in DOM order first.
-        room = nearby_location_after(anchor, rooms)
+        # The /2026-agenda endpoint renders the ballroom inside each session
+        # card. Only accept a room found inside this exact card so room-less
+        # event-info items cannot borrow the next session's venue.
+        room = location_from_text(text, rooms)
         if not room:
-            room = location_from_text(text, rooms)
-        if not room:
-            # Non-room items (general event info, expo-floor activations, etc.)
-            # are intentionally excluded from the RoboCam room schedule.
             continue
 
         seen_cards.add(id(card))
