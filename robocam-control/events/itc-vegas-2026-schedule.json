@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "eventId": "itc-vegas-2026",
-  "eventVersion": "2026-09-29-rooms-d",
+  "eventVersion": "2026-09-29-overrun-a",
   "sourceUrls": [
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=29-Sep-2026",
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=30-Sep-2026",
@@ -1468,7 +1468,7 @@
       "stream": "Mandalay Bay Ballroom L"
     }
   ],
-  "updatedAt": "2026-09-29T19:59:55Z",
-  "sourceHash": "74784d7f14a0b05bd6afeed6fd3d1f2703939bae2f15cddffb7bfa31d2edd18c",
-  "scheduleHash": "191942529a0bbdd76139309e8ffe7332dace5af60d8c887a80f8d99fe1096e5b"
+  "updatedAt": "2026-09-29T20:07:47Z",
+  "sourceHash": "5c23ccfe87dab05e639fe92e85024ee49d9f1973354f3eaaa964bb87a1a45390",
+  "scheduleHash": "bd96efd8d0d987843441e0c1fb663e9d5995fc11727380ad8df879ad8490dddf"
 }
