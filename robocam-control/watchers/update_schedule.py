@@ -372,6 +372,36 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
 
     sessions = list(unique.values())
 
+    # Drop umbrella/container entries that span several concrete sessions in
+    # the same physical room. ITC publishes blocks such as "Pegasystems Summit"
+    # from 10:30-16:00 in addition to the actual talks inside that block. If we
+    # keep both, Control Room reports LIVE during the gaps between those talks.
+    def _mins(value: str) -> int:
+        h, m = value.split(":")
+        return int(h) * 60 + int(m)
+
+    concrete = []
+    for s in sessions:
+        s0, s1 = _mins(s["start"]), _mins(s["end"])
+        if s1 - s0 < 90:
+            concrete.append(s)
+            continue
+        children = [
+            x for x in sessions
+            if x is not s
+            and x["date"] == s["date"]
+            and x["location"] == s["location"]
+            and _mins(x["start"]) >= s0
+            and _mins(x["end"]) <= s1
+        ]
+        if len(children) >= 2:
+            child_start = min(_mins(x["start"]) for x in children)
+            child_end = max(_mins(x["end"]) for x in children)
+            if child_start == s0 and child_end == s1:
+                continue
+        concrete.append(s)
+    sessions = concrete
+
     # ITC explicitly allows simultaneous sessions within a category. For other
     # event types we still only de-duplicate exact records here; the extension
     # may apply its stricter timeline conflict handling when configured.
