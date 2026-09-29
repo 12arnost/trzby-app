@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "itc-vegas-2026",
-  "version": "2026-09-29-rooms-d",
+  "version": "2026-09-29-overrun-a",
   "name": "ITC Vegas 2026",
   "shortName": "ITC",
   "timezone": "America/Los_Angeles",
@@ -94,5 +94,7 @@
       "The Modern Underwriter Summit",
       "Town Square Takeovers"
     ]
-  }
+  },
+  "overrunGraceMinutes": 10,
+  "overrunMinSessionMinutes": 90
 }
