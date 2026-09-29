@@ -7,9 +7,9 @@
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=30-Sep-2026",
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=01-Oct-2026"
   ],
-  "sessionCount": 183,
+  "sessionCount": 184,
   "countsByDate": {
-    "2026-09-29": 126,
+    "2026-09-29": 127,
     "2026-09-30": 37,
     "2026-10-01": 20
   },
@@ -746,6 +746,14 @@
       "title": "Women in insurance: Leading through a time of AI disruption",
       "location": "Mandalay Bay Ballroom I",
       "stream": "Mandalay Bay Ballroom I"
+    },
+    {
+      "date": "2026-09-29",
+      "start": "15:00",
+      "end": "17:00",
+      "title": "(opens in a new tab)",
+      "location": "Oceanside Ballroom B",
+      "stream": "Oceanside Ballroom B"
     },
     {
       "date": "2026-09-29",
@@ -1492,7 +1500,7 @@
       "stream": "Mandalay Bay Ballroom L"
     }
   ],
-  "updatedAt": "2026-09-29T14:54:41Z",
-  "sourceHash": "24c0956670dd40f1bf509e9f684e85ac21fac354f6fb6ac576afda86d49a00fe",
-  "scheduleHash": "01c4529c44e19482d6ac2cd7ac6c39c08dafda98f51a1f614fac86a620d51a2f"
+  "updatedAt": "2026-09-29T19:58:58Z",
+  "sourceHash": "8b2baaa0ea0d5174caf4c242158cd4da3c5aeca3e06d5a8bfef07592a8b49125",
+  "scheduleHash": "4076a7f3042a19524944a189c48c9bc5ec95e0054f3b2cc756b8e0bc70bc88c4"
 }
