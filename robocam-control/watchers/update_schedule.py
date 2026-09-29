@@ -306,7 +306,7 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
 
         if profile.get("id") == "itc-vegas-2026" and title.startswith("Agentic claims at scale"):
             probe = anchor
-            for level in range(6):
+            for level in range(11):
                 if not isinstance(probe, Tag):
                     break
                 attrs = {k: v for k, v in probe.attrs.items() if k in ("class", "id", "data-date", "data-day", "data-start", "data-end", "data-location", "data-filter", "data-sort")}
