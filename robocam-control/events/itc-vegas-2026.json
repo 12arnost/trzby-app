@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "itc-vegas-2026",
-  "version": "2026-09-29-rooms-a",
+  "version": "2026-09-29-rooms-b",
   "name": "ITC Vegas 2026",
   "shortName": "ITC",
   "timezone": "America/Los_Angeles",
@@ -65,6 +65,32 @@
     ],
     "outputPath": "robocam-control/events/itc-vegas-2026-schedule.json",
     "minSessions": 70,
-    "requireAllDates": true
+    "requireAllDates": true,
+    "groupLocations": [
+      "Event Information",
+      "Main Stage",
+      "AI in Action",
+      "ITC Sponsor-Curated Summits",
+      "AI-Powered Insurance Innovation Summit",
+      "Capacity Connect Summit",
+      "Claims Transformation & Fraud Summit",
+      "Commercial & Specialty Lines Summit",
+      "Cyber Innovation Summit",
+      "Deep Dives",
+      "Health Connect Summit",
+      "Innovation Through Growth",
+      "Innovation Through Operational Efficiency",
+      "Innovation Through Strategic Foresight",
+      "ITC Agents",
+      "ITC Community Meet-Ups",
+      "ITC LATAM",
+      "ITC Solutions Stage",
+      "Life, Health & Benefits",
+      "Lunch Seminar",
+      "Masterclass Series",
+      "State Farm Startup Pitch Competition",
+      "The Modern Underwriter Summit",
+      "Town Square Takeovers"
+    ]
   }
 }
