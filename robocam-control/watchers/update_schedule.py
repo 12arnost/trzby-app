@@ -304,6 +304,15 @@ def parse_generic_html(html: str, profile: dict[str, Any], source_url: str) -> d
         if not title:
             continue
 
+        if profile.get("id") == "itc-vegas-2026" and title.startswith("Agentic claims at scale"):
+            probe = anchor
+            for level in range(6):
+                if not isinstance(probe, Tag):
+                    break
+                attrs = {k: v for k, v in probe.attrs.items() if k in ("class", "id", "data-date", "data-day", "data-start", "data-end", "data-location", "data-filter", "data-sort")}
+                print(f"[schedule-watcher][dom] level={level} tag={probe.name} attrs={attrs} text={tag_text(probe)[:700]!r}")
+                probe = probe.parent if isinstance(probe.parent, Tag) else None
+
         card_pos = order.get(id(card), 10**12)
         group_location = ""
         for heading_pos, heading_loc in headings:
