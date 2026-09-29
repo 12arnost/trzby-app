@@ -7,11 +7,11 @@
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=30-Sep-2026",
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=01-Oct-2026"
   ],
-  "sessionCount": 184,
+  "sessionCount": 180,
   "countsByDate": {
-    "2026-09-29": 127,
+    "2026-09-29": 124,
     "2026-09-30": 37,
-    "2026-10-01": 20
+    "2026-10-01": 19
   },
   "locations": [
     "Breakers Ballroom BC",
@@ -261,14 +261,6 @@
     },
     {
       "date": "2026-09-29",
-      "start": "10:30",
-      "end": "16:00",
-      "title": "Pegasystems Summit: Insurance Reimagined: Practical AI for Real Outcomes",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-29",
       "start": "10:35",
       "end": "10:55",
       "title": "Reconstruct. Resolve. Prevent.: The new commercial auto claims lifecycle, presented by MOTER",
@@ -474,14 +466,6 @@
       "title": "Opening remarks, presented by Mea",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:00",
-      "end": "17:00",
-      "title": "Cognizant Summit",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-29",
@@ -746,14 +730,6 @@
       "title": "Women in insurance: Leading through a time of AI disruption",
       "location": "Mandalay Bay Ballroom I",
       "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "15:00",
-      "end": "17:00",
-      "title": "(opens in a new tab)",
-      "location": "Oceanside Ballroom B",
-      "stream": "Oceanside Ballroom B"
     },
     {
       "date": "2026-09-29",
@@ -1350,14 +1326,6 @@
     {
       "date": "2026-10-01",
       "start": "10:30",
-      "end": "14:00",
-      "title": "Winning Monetization and Sales Strategies for Insurtechs in the Age of AI In Partnership with Simon-Kucher",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
       "end": "10:35",
       "title": "Opening remarks, presented by IBM",
       "location": "Mandalay Bay Ballroom J",
@@ -1500,7 +1468,7 @@
       "stream": "Mandalay Bay Ballroom L"
     }
   ],
-  "updatedAt": "2026-09-29T19:58:58Z",
-  "sourceHash": "8b2baaa0ea0d5174caf4c242158cd4da3c5aeca3e06d5a8bfef07592a8b49125",
-  "scheduleHash": "4076a7f3042a19524944a189c48c9bc5ec95e0054f3b2cc756b8e0bc70bc88c4"
+  "updatedAt": "2026-09-29T19:59:55Z",
+  "sourceHash": "74784d7f14a0b05bd6afeed6fd3d1f2703939bae2f15cddffb7bfa31d2edd18c",
+  "scheduleHash": "191942529a0bbdd76139309e8ffe7332dace5af60d8c887a80f8d99fe1096e5b"
 }
