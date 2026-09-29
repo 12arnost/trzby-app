@@ -7,11 +7,11 @@
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=30-Sep-2026",
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=01-Oct-2026"
   ],
-  "sessionCount": 292,
+  "sessionCount": 183,
   "countsByDate": {
-    "2026-09-29": 154,
-    "2026-09-30": 82,
-    "2026-10-01": 56
+    "2026-09-29": 126,
+    "2026-09-30": 37,
+    "2026-10-01": 20
   },
   "locations": [
     "Breakers Ballroom BC",
@@ -27,38 +27,6 @@
     "Reef Ballroom EF"
   ],
   "sessions": [
-    {
-      "date": "2026-09-29",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "ITC Vegas Discovery Desk powered by CB Insights",
-      "location": "Breakers Ballroom DE",
-      "stream": "Breakers Ballroom DE"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "07:00",
-      "end": "08:30",
-      "title": "Breakfast Sponsored by Heathos",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "Badge Pickup Hours",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "08:00",
-      "end": "18:00",
-      "title": "LEARN MORE (opens in a new tab)",
-      "location": "Mandalay Bay Ballroom F",
-      "stream": "Mandalay Bay Ballroom F"
-    },
     {
       "date": "2026-09-29",
       "start": "08:45",
@@ -88,14 +56,6 @@
       "start": "09:00",
       "end": "09:05",
       "title": "ITC LATAM opening remarks",
-      "location": "Mandalay Bay Ballroom F",
-      "stream": "Mandalay Bay Ballroom F"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "09:00",
-      "end": "17:00",
-      "title": "LEARN MORE (opens in a new tab)",
       "location": "Mandalay Bay Ballroom F",
       "stream": "Mandalay Bay Ballroom F"
     },
@@ -469,30 +429,6 @@
     },
     {
       "date": "2026-09-29",
-      "start": "12:00",
-      "end": "12:45",
-      "title": "Networking Lunch",
-      "location": "Lagoon Ballroom KL",
-      "stream": "Lagoon Ballroom KL"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:00",
-      "end": "16:00",
-      "title": "Viewpoint Ventures Summit: 5th annual strategy, corporate development & innovation summit",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:00",
-      "end": "13:30",
-      "title": "Lunch Sponsored by Heathos",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-09-29",
       "start": "12:05",
       "end": "12:20",
       "title": "From 18 months to 6 Weeks: How Mexico's largest insurer built a startup-speed innovation lab for 17,000 agents",
@@ -518,26 +454,10 @@
     {
       "date": "2026-09-29",
       "start": "12:30",
-      "end": "18:00",
-      "title": "Datos Insights Summit: Why AI Transformations Stall in the Race to Operationalize AI",
-      "location": "Mandalay Bay Ballroom D",
-      "stream": "Mandalay Bay Ballroom D"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:30",
       "end": "12:50",
       "title": "The quantum horizon: Exploring the next wave of research and capabilities poised to transform the insurance industry",
       "location": "Oceanside Ballroom B",
       "stream": "Oceanside Ballroom B"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "12:45",
-      "end": "13:05",
-      "title": "Opening remarks and state of insurtech",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-29",
@@ -554,30 +474,6 @@
       "title": "Opening remarks, presented by Mea",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:00",
-      "end": "13:15",
-      "title": "Welcome and introductions",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:00",
-      "end": "17:00",
-      "title": "Sureify Life & Annuity Summit",
-      "location": "Oceanside Ballroom B",
-      "stream": "Oceanside Ballroom B"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:00",
-      "end": "17:00",
-      "title": "Celent Summit: Starting the Countdown to Agentic Insurance",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-29",
@@ -637,22 +533,6 @@
     },
     {
       "date": "2026-09-29",
-      "start": "13:15",
-      "end": "13:55",
-      "title": "Insurtech: Are we so back?",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:20",
-      "end": "13:50",
-      "title": "AI: The great equalizer or the great divide?",
-      "location": "Breakers Ballroom BC",
-      "stream": "Breakers Ballroom BC"
-    },
-    {
-      "date": "2026-09-29",
       "start": "13:20",
       "end": "13:40",
       "title": "Growth demand has a speed. Match it.",
@@ -674,14 +554,6 @@
       "title": "Fight fire with fire: Conquering generative AI powered fraud for claims, presented by SAS",
       "location": "Mandalay Bay Ballroom K",
       "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:30",
-      "end": "17:00",
-      "title": "Alchemy Crew Ventures: AI Horizons 2030: The Readiness Problem",
-      "location": "Breakers Ballroom BC",
-      "stream": "Breakers Ballroom BC"
     },
     {
       "date": "2026-09-29",
@@ -714,14 +586,6 @@
       "title": "Artificial intelligence needs human intelligence",
       "location": "Reef Ballroom EF",
       "stream": "Reef Ballroom EF"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "13:35",
-      "end": "14:05",
-      "title": "The new shape of distribution",
-      "location": "Mandalay Bay Ballroom F",
-      "stream": "Mandalay Bay Ballroom F"
     },
     {
       "date": "2026-09-29",
@@ -782,26 +646,10 @@
     {
       "date": "2026-09-29",
       "start": "14:00",
-      "end": "14:40",
-      "title": "Payments in insurance: Bridging the gap between policyholders and carriers",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "14:00",
       "end": "15:00",
       "title": "First Timers Orientation",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "14:05",
-      "end": "14:45",
-      "title": "View from Wall Street: Bulls, bears, and black boxes",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-29",
@@ -838,14 +686,6 @@
     {
       "date": "2026-09-29",
       "start": "14:20",
-      "end": "14:40",
-      "title": "Networking break",
-      "location": "Lagoon Ballroom KL",
-      "stream": "Lagoon Ballroom KL"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "14:20",
       "end": "15:00",
       "title": "Progressive use-case solution showcase (Session 1)",
       "location": "Reef Ballroom EF",
@@ -878,22 +718,6 @@
     {
       "date": "2026-09-29",
       "start": "14:45",
-      "end": "15:25",
-      "title": "Agentic AI in Insurance: From Experimentation to Early Scale",
-      "location": "Breakers Ballroom BC",
-      "stream": "Breakers Ballroom BC"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "14:45",
-      "end": "15:15",
-      "title": "Rewiring the org: How incumbents are restructuring to run on AI",
-      "location": "Breakers Ballroom DE",
-      "stream": "Breakers Ballroom DE"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "14:45",
       "end": "15:05",
       "title": "Rethinking insurance journeys in a data-driven world",
       "location": "Mandalay Bay Ballroom F",
@@ -922,14 +746,6 @@
       "title": "Women in insurance: Leading through a time of AI disruption",
       "location": "Mandalay Bay Ballroom I",
       "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "15:00",
-      "end": "17:00",
-      "title": "LEARN MORE (opens in a new tab)",
-      "location": "Oceanside Ballroom B",
-      "stream": "Oceanside Ballroom B"
     },
     {
       "date": "2026-09-29",
@@ -1018,14 +834,6 @@
       "title": "Networking break",
       "location": "Lagoon Ballroom KL",
       "stream": "Lagoon Ballroom KL"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "15:30",
-      "end": "16:10",
-      "title": "Governance takes center stage",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-29",
@@ -1133,14 +941,6 @@
     },
     {
       "date": "2026-09-29",
-      "start": "16:15",
-      "end": "16:55",
-      "title": "When is it time to abandon incrementalism?",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-29",
       "start": "16:20",
       "end": "16:25",
       "title": "Intro to topic-based networking tables",
@@ -1215,14 +1015,6 @@
       "date": "2026-09-29",
       "start": "16:55",
       "end": "17:00",
-      "title": "Wrap up and next steps",
-      "location": "Mandalay Bay Ballroom F",
-      "stream": "Mandalay Bay Ballroom F"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "16:55",
-      "end": "17:00",
       "title": "State Farm Startup Pitch Competition: Winner Announced",
       "location": "Oceanside Ballroom B",
       "stream": "Oceanside Ballroom B"
@@ -1238,82 +1030,10 @@
     {
       "date": "2026-09-29",
       "start": "17:00",
-      "end": "19:00",
-      "title": "ITC Vegas Official Kickoff Party",
-      "location": "Breakers Ballroom DE",
-      "stream": "Breakers Ballroom DE"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "17:00",
       "end": "18:00",
       "title": "Cocktail reception",
       "location": "Lagoon Ballroom KL",
       "stream": "Lagoon Ballroom KL"
-    },
-    {
-      "date": "2026-09-29",
-      "start": "17:00",
-      "end": "19:00",
-      "title": "ITC LATAM Happy Hour",
-      "location": "Mandalay Bay Ballroom F",
-      "stream": "Mandalay Bay Ballroom F"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "Badge Pickup Hours",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "07:00",
-      "end": "08:30",
-      "title": "Breakfast Sponsored by Heathos",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "ITC Vegas Discovery Desk powered by CB Insights",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "07:15",
-      "end": "08:15",
-      "title": "First Timers Expo Tour",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "08:15",
-      "end": "10:15",
-      "title": "Wednesday Keynotes On the Main Stage",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "09:00",
-      "end": "18:00",
-      "title": "Expo Floor Open",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "10:15",
-      "end": "10:25",
-      "title": "Product demo: One Inc",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
@@ -1359,14 +1079,6 @@
       "date": "2026-09-30",
       "start": "10:35",
       "end": "11:10",
-      "title": "From pilot to agentic operating system: Scaling profitably, presented by Salesforce",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "10:35",
-      "end": "11:10",
       "title": "Rewriting the insurance value chain with agentic AI, presented by Microsoft",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
@@ -1381,43 +1093,11 @@
     },
     {
       "date": "2026-09-30",
-      "start": "10:35",
-      "end": "11:10",
-      "title": "Modernizing life & annuity policy administration systems",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
       "start": "11:00",
       "end": "12:00",
       "title": "Claims Agent Masterclass: How to Build an Agent You'd Trust with a Claim",
       "location": "Mandalay Bay Ballroom D",
       "stream": "Mandalay Bay Ballroom D"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:00",
-      "end": "11:10",
-      "title": "Product demo: Your AI needs a better view, presented by Vexcel",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:00",
-      "end": "12:00",
-      "title": "The $90 billion goodbye: Turning the claims moment into a growth engine",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:00",
-      "end": "12:00",
-      "title": "LATAM field trip – “Get to know LATAM”",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
@@ -1439,30 +1119,6 @@
       "date": "2026-09-30",
       "start": "11:15",
       "end": "11:35",
-      "title": "Acquisition is getting harder, now what?",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:15",
-      "end": "11:35",
-      "title": "From modernization to momentum: How insurers are building for what's next in life & annuities, presented by Sapiens",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:15",
-      "end": "11:25",
-      "title": "Product demo: US Rooftop Geocoding, presented by Smarty",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:15",
-      "end": "11:35",
       "title": "When to build, when to partner, when to acquire",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
@@ -1477,25 +1133,9 @@
     },
     {
       "date": "2026-09-30",
-      "start": "11:30",
-      "end": "12:30",
-      "title": "Black Leadership Forum",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
       "start": "11:40",
       "end": "12:00",
       "title": "Behind the door: Why the next wave of property risk intelligence starts inside the home, presented by Home Factors by PGM",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:40",
-      "end": "12:00",
-      "title": "Connected distribution in action: Lessons from USAA's digital transformation journey, presented by bolt",
       "location": "Mandalay Bay Ballroom I",
       "stream": "Mandalay Bay Ballroom I"
     },
@@ -1517,43 +1157,11 @@
     },
     {
       "date": "2026-09-30",
-      "start": "11:40",
-      "end": "12:00",
-      "title": "Make exec stakeholders venture literate fast: The translation layer every insurer needs",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "11:45",
-      "end": "11:55",
-      "title": "Product demo: SeekNow",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
       "start": "11:50",
       "end": "12:20",
       "title": "Building the MGAs of the future",
       "location": "Mandalay Bay Ballroom K",
       "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "12:00",
-      "end": "13:00",
-      "title": "ChatGPT as an insurance distribution channel? Tuio and Mapfre in conversation",
-      "location": "Mandalay Bay Ballroom D",
-      "stream": "Mandalay Bay Ballroom D"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "12:00",
-      "end": "13:30",
-      "title": "Lunch Sponsored by Heathos",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
     },
     {
       "date": "2026-09-30",
@@ -1573,35 +1181,11 @@
     },
     {
       "date": "2026-09-30",
-      "start": "12:05",
-      "end": "12:25",
-      "title": "What agentic AI actually costs to run: Lessons from insurers in production, presented by Neutrinos",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "12:05",
-      "end": "12:25",
-      "title": "What makes AI successful at enterprise scale: AI friendly APIs, presented by InsureMO",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-09-30",
       "start": "12:30",
       "end": "14:00",
       "title": "Modern platform. Intelligent operations. Real outcomes. Presented by IBM",
       "location": "Reef Ballroom EF",
       "stream": "Reef Ballroom EF"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "13:00",
-      "end": "14:00",
-      "title": "RISE young professionals meet-up",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
     },
     {
       "date": "2026-09-30",
@@ -1622,42 +1206,10 @@
     {
       "date": "2026-09-30",
       "start": "14:00",
-      "end": "15:00",
-      "title": "AIP breaking news and official ITC LATAM photo",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:00",
-      "end": "15:00",
-      "title": "Closing the staggering L&AH protection gap, presented by Majesco",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:00",
       "end": "14:20",
       "title": "How Nationwide and LeakBot proactively prevent water damage, presented by LeakBot",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:00",
-      "end": "14:10",
-      "title": "Product demo: TruVideo Clarity",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:00",
-      "end": "14:10",
-      "title": "One intelligent operations platform. Unlimited possibilities, presented by Solvrays",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
     },
     {
       "date": "2026-09-30",
@@ -1669,35 +1221,11 @@
     },
     {
       "date": "2026-09-30",
-      "start": "14:00",
-      "end": "14:20",
-      "title": "Agentic commerce and the future of insurance distribution, presented by Stripe",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-09-30",
       "start": "14:05",
       "end": "14:35",
       "title": "Stop leaving claims risk on the table, presented by Clara Analytics",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:15",
-      "end": "14:50",
-      "title": "Beyond automation: Building the AI-native insurance operating model, presented by PwC",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:25",
-      "end": "14:35",
-      "title": "Embedded insurance, reimagined: From distribution to orchestration to agentic growth, presented by Mapfre",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-30",
@@ -1725,27 +1253,11 @@
     },
     {
       "date": "2026-09-30",
-      "start": "14:30",
-      "end": "16:00",
-      "title": "VC Office Hours",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-09-30",
       "start": "14:40",
       "end": "15:15",
       "title": "AI safety and governance in claims, presented by Assured",
       "location": "Mandalay Bay Ballroom I",
       "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "14:40",
-      "end": "15:15",
-      "title": "From lead to loyal: Winning the modern insurance customer funnel",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-09-30",
@@ -1765,14 +1277,6 @@
     },
     {
       "date": "2026-09-30",
-      "start": "14:45",
-      "end": "14:55",
-      "title": "Product demo: Zero to product in 10 Minutes with AI, presented by Socotra",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
       "start": "14:50",
       "end": "15:20",
       "title": "Capital meets capacity: The live market",
@@ -1781,51 +1285,11 @@
     },
     {
       "date": "2026-09-30",
-      "start": "14:55",
-      "end": "15:15",
-      "title": "The next era of health insurance is AI-native",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:00",
-      "end": "16:00",
-      "title": "How global insurers are driving innovation: Lessons from Brazil and Latin America",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:15",
-      "end": "15:25",
-      "title": "Product demo: Signal Fuse, presented by Data Axle",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
       "start": "15:15",
       "end": "15:45",
       "title": "Who owns the algorithm? AI accountability in the modern insurer",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:15",
-      "end": "16:15",
-      "title": "Matterport Bourbon Tasting",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:20",
-      "end": "15:40",
-      "title": "Accelerating the digitization of B2B payments in healthcare, presented by Mastercard",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-30",
@@ -1842,22 +1306,6 @@
       "title": "Autonomous mobility insurance: Rewriting risk in a driverless world",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:20",
-      "end": "15:55",
-      "title": "Group benefits technology: Enrollment, eligibility and data accuracy",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "15:45",
-      "end": "16:20",
-      "title": "Embedded insurance and strategic partnerships: new paths to market",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-09-30",
@@ -1882,102 +1330,6 @@
       "title": "Transforming insurance SDLC with AI & agentic orchestration, presented by Aggne",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "16:00",
-      "end": "17:00",
-      "title": "Insurance in the frontier era: Turning intelligence into impact, presented by Microsoft",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "16:15",
-      "end": "17:30",
-      "title": "Expo Floor Happy Hour",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "16:15",
-      "end": "17:30",
-      "title": "Happy Hour Sponsored by MetLife",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-09-30",
-      "start": "17:00",
-      "end": "19:00",
-      "title": "C-Suite Reception Sponsored by Buddy, INTX, Majesco, Percipience, and Snapsheet,",
-      "location": "Mandalay Bay Ballroom K",
-      "stream": "Mandalay Bay Ballroom K"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "07:00",
-      "end": "17:00",
-      "title": "Badge Pickup Hours",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "07:00",
-      "end": "08:30",
-      "title": "Breakfast Sponsored by Heathos",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "07:00",
-      "end": "18:00",
-      "title": "ITC Vegas Discovery Desk powered by CB Insights",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "08:15",
-      "end": "10:10",
-      "title": "Thursday Keynotes On the Main Stage",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "09:00",
-      "end": "17:00",
-      "title": "Expo Floor Open",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:00",
-      "end": "10:10",
-      "title": "Product demo: Quadient Evolve: AI-powered template generator, presented by Quadient",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "12:30",
-      "title": "Founders Forum",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:30",
-      "end": "10:35",
-      "title": "Opening remarks, presented by Salesforce",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-10-01",
@@ -2022,40 +1374,8 @@
     {
       "date": "2026-10-01",
       "start": "10:35",
-      "end": "11:10",
-      "title": "Distribution 2.0: reimagining the broker & digital channel stack",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:35",
       "end": "11:05",
       "title": "Building quantum resilience: The journey to quantum-safe cryptography, presented by IBM",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:35",
-      "end": "11:10",
-      "title": "The AI-enabled advisor: Sales, suitability and retirement planning",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "10:45",
-      "end": "10:55",
-      "title": "Product demo: The Future of Distribution Management: From disconnected systems to one orchestration layer, presented by Producerflow",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:00",
-      "end": "12:00",
-      "title": "LATAM global gathering: Meet other insurtechs from around the world",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
     },
@@ -2085,46 +1405,6 @@
     },
     {
       "date": "2026-10-01",
-      "start": "11:15",
-      "end": "11:35",
-      "title": "Build vs. buy is only half the decision: Fireside chat with Adam Landau (CIO, Berkshire Hathaway GUARD), presented by Further AI",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:15",
-      "end": "11:35",
-      "title": "The claim that never happened",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:15",
-      "end": "11:25",
-      "title": "Product demo: Indemn Digital Workforce",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:30",
-      "end": "11:40",
-      "title": "Product demo: Driving trust: Empowering consumers through telematics, presented by TransUnion",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:40",
-      "end": "12:00",
-      "title": "Annuities in a high-rate environment: product design and distribution strategy",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
       "start": "11:40",
       "end": "12:10",
       "title": "What is an AI-first insurance application? — Reimagining insurance operations with generative AI, presented by GenerativeX",
@@ -2142,58 +1422,10 @@
     {
       "date": "2026-10-01",
       "start": "11:45",
-      "end": "12:00",
-      "title": "The hidden cost of bad agency data: Why your distribution strategy — and your AI — depends on what's underneath it, presented by Neilson Marketing Services",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:45",
       "end": "12:20",
       "title": "The weaponization of AI and cyber insurance",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "11:50",
-      "end": "12:10",
-      "title": "From possibility to progress: Building the future of insurance, presented by Apryse",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "12:00",
-      "end": "13:00",
-      "title": "Fourth annual foosball tournament - hosted by AIP",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "12:00",
-      "end": "13:30",
-      "title": "Lunch Sponsored by Heathos",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "12:05",
-      "end": "12:25",
-      "title": "The AI-enabled benefits lifecycle",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "12:30",
-      "end": "12:40",
-      "title": "How did an insurer increase enrollment 114%? presented by TruAgents",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
     },
     {
       "date": "2026-10-01",
@@ -2202,14 +1434,6 @@
       "title": "Driving sales effectiveness",
       "location": "Mandalay Bay Ballroom I",
       "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "13:30",
-      "end": "14:15",
-      "title": "The agentic insurer — from AI ambition to action, presented by AWS",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
     },
     {
       "date": "2026-10-01",
@@ -2229,57 +1453,9 @@
     },
     {
       "date": "2026-10-01",
-      "start": "14:00",
-      "end": "14:30",
-      "title": "Break your news",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:00",
-      "end": "14:20",
-      "title": "Suitability and compliance in digital annuity sales",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:00",
-      "end": "14:10",
-      "title": "Product demo: Variabl",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:00",
-      "end": "14:20",
-      "title": "Can digital transformation outrun AI fraud? Presented by Socure",
-      "location": "Reef Ballroom EF",
-      "stream": "Reef Ballroom EF"
-    },
-    {
-      "date": "2026-10-01",
       "start": "14:05",
       "end": "14:35",
       "title": "Receipts to roadmap, presented by Liberate",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:25",
-      "end": "14:45",
-      "title": "Beyond the buzz: From reactive to predictive AI in insurance turning emerging AI into smarter risk intelligence",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:30",
-      "end": "14:40",
-      "title": "Product demo: ePayPolicy",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
     },
@@ -2301,22 +1477,6 @@
     },
     {
       "date": "2026-10-01",
-      "start": "14:45",
-      "end": "14:55",
-      "title": "Product demo: G1 Platform (Powered By Growth Insurance)",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "14:50",
-      "end": "15:10",
-      "title": "Universal accessibility in documents: Essential for some, better for all",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
       "start": "15:00",
       "end": "15:35",
       "title": "Cyber risk Q&A: Our experts - your questions",
@@ -2326,45 +1486,13 @@
     {
       "date": "2026-10-01",
       "start": "15:15",
-      "end": "16:30",
-      "title": "Expo Floor Happy Hour",
-      "location": "Mandalay Bay Ballroom I",
-      "stream": "Mandalay Bay Ballroom I"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "15:15",
-      "end": "15:25",
-      "title": "The Future of Superintelligent Vision, presented by Matter",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "15:15",
-      "end": "15:50",
-      "title": "Aggregators, marketplaces and the fight for placement",
-      "location": "Mandalay Bay Ballroom L",
-      "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "15:15",
       "end": "15:45",
       "title": "Rebuilding the engine mid-flight: AI-powered core modernization, presented by LTM",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
-    },
-    {
-      "date": "2026-10-01",
-      "start": "20:00",
-      "end": "22:00",
-      "title": "ITC Vegas Official Closing Party featuring the Gin Blossoms!",
-      "location": "Mandalay Bay Ballroom J",
-      "stream": "Mandalay Bay Ballroom J"
     }
   ],
-  "updatedAt": "2026-09-29T14:53:13Z",
-  "sourceHash": "84f6c91bb7d7bdce9b263a20799b956b9cc5a774ee3cfc4d527c46e1d335c61f",
-  "scheduleHash": "a33346f921dc1631e75528efc4228f324c8ee0ae00b72e5d128460890b25fa6e"
+  "updatedAt": "2026-09-29T14:54:41Z",
+  "sourceHash": "24c0956670dd40f1bf509e9f684e85ac21fac354f6fb6ac576afda86d49a00fe",
+  "scheduleHash": "01c4529c44e19482d6ac2cd7ac6c39c08dafda98f51a1f614fac86a620d51a2f"
 }
