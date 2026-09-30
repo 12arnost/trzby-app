@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "eventId": "itc-vegas-2026",
-  "eventVersion": "2026-09-29-overrun-a",
+  "eventVersion": "2026-09-30-recording-rooms-a",
   "sourceUrls": [
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=29-Sep-2026",
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=30-Sep-2026",
     "https://vegas.insuretechconnect.com/2026-agenda?filters.DATE=01-Oct-2026"
   ],
-  "sessionCount": 180,
+  "sessionCount": 244,
   "countsByDate": {
     "2026-09-29": 124,
-    "2026-09-30": 37,
-    "2026-10-01": 19
+    "2026-09-30": 71,
+    "2026-10-01": 49
   },
   "locations": [
     "Breakers Ballroom BC",
@@ -24,7 +24,11 @@
     "Mandalay Bay Ballroom K",
     "Mandalay Bay Ballroom L",
     "Oceanside Ballroom B",
-    "Reef Ballroom EF"
+    "Oceanside Ballroom CD",
+    "Reef Ballroom EF",
+    "Innovation Alley (Expo Floor)",
+    "ITC Vegas Growth Stage (Expo Floor)",
+    "ITC Life, Health & Benefits Stage (Expo Floor)"
   ],
   "sessions": [
     {
@@ -1021,6 +1025,30 @@
     },
     {
       "date": "2026-09-30",
+      "start": "08:15",
+      "end": "10:15",
+      "title": "Wednesday Keynotes On the Main Stage",
+      "location": "Oceanside Ballroom CD",
+      "stream": "Oceanside Ballroom CD"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:00",
+      "end": "10:10",
+      "title": "Product demo: Closing the AI underwriting loop with pre-bind precision and post-bind proof, presented by IntellectAI",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:15",
+      "end": "10:25",
+      "title": "Product demo: One Inc",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "10:30",
       "end": "10:35",
       "title": "Opening remarks, presented by Majesco",
@@ -1053,6 +1081,22 @@
     },
     {
       "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:40",
+      "title": "Product demo: Earnix Intelligent Decision Engine: Powered by AIOS",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by Salesforce",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "10:35",
       "end": "11:10",
       "title": "The frontier insurer: A new AI operating paradigm, presented by Majesco",
@@ -1077,11 +1121,43 @@
     },
     {
       "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "From pilot to agentic operating system: Scaling profitably, presented by Salesforce",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "Modernizing life & annuity policy administration systems",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "10:45",
+      "end": "10:55",
+      "title": "Product demo: Convr risk context engine",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "11:00",
       "end": "12:00",
       "title": "Claims Agent Masterclass: How to Build an Agent You'd Trust with a Claim",
       "location": "Mandalay Bay Ballroom D",
       "stream": "Mandalay Bay Ballroom D"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:00",
+      "end": "11:10",
+      "title": "Product demo: Your AI needs a better view, presented by Vexcel",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
     },
     {
       "date": "2026-09-30",
@@ -1117,6 +1193,38 @@
     },
     {
       "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:25",
+      "title": "Product demo: US Rooftop Geocoding, presented by Smarty",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "Acquisition is getting harder, now what?",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "From modernization to momentum: How insurers are building for what's next in life & annuities, presented by Sapiens",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:30",
+      "end": "11:40",
+      "title": "Product Demo: From transactional to transformational: Driving retention with modern payments, presented by Paymentus",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "11:40",
       "end": "12:00",
       "title": "Behind the door: Why the next wave of property risk intelligence starts inside the home, presented by Home Factors by PGM",
@@ -1141,6 +1249,30 @@
     },
     {
       "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Connected distribution in action: Lessons from USAA's digital transformation journey, presented by bolt",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Make exec stakeholders venture literate fast: The translation layer every insurer needs",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "11:45",
+      "end": "11:55",
+      "title": "Product demo: SeekNow",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "11:50",
       "end": "12:20",
       "title": "Building the MGAs of the future",
@@ -1162,6 +1294,22 @@
       "title": "Beyond telematics: AI, vehicle intelligence, and the future of insurance, presented by Milliman",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "What makes AI successful at enterprise scale: AI friendly APIs, presented by InsureMO",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "What agentic AI actually costs to run: Lessons from insurers in production, presented by Neutrinos",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
     },
     {
       "date": "2026-09-30",
@@ -1205,11 +1353,51 @@
     },
     {
       "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "Product demo: TruVideo Clarity",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "Agentic commerce and the future of insurance distribution, presented by Stripe",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "One intelligent operations platform. Unlimited possibilities, presented by Solvrays",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "14:05",
       "end": "14:35",
       "title": "Stop leaving claims risk on the table, presented by Clara Analytics",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:15",
+      "end": "14:25",
+      "title": "Product Demo: Hyland AI‑powered claims decisions",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:15",
+      "end": "14:50",
+      "title": "Beyond automation: Building the AI-native insurance operating model, presented by PwC",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
     },
     {
       "date": "2026-09-30",
@@ -1237,6 +1425,22 @@
     },
     {
       "date": "2026-09-30",
+      "start": "14:25",
+      "end": "14:35",
+      "title": "Embedded insurance, reimagined: From distribution to orchestration to agentic growth, presented by Mapfre",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:30",
+      "end": "14:40",
+      "title": "Product demo: Filevine",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "14:40",
       "end": "15:15",
       "title": "AI safety and governance in claims, presented by Assured",
@@ -1261,6 +1465,22 @@
     },
     {
       "date": "2026-09-30",
+      "start": "14:40",
+      "end": "15:15",
+      "title": "From lead to loyal: Winning the modern insurance customer funnel",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "14:45",
+      "end": "14:55",
+      "title": "Product demo: Zero to product in 10 Minutes with AI, presented by Socotra",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "14:50",
       "end": "15:20",
       "title": "Capital meets capacity: The live market",
@@ -1269,11 +1489,35 @@
     },
     {
       "date": "2026-09-30",
+      "start": "14:55",
+      "end": "15:15",
+      "title": "The next era of health insurance is AI-native",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:00",
+      "end": "15:10",
+      "title": "Product demo: DSW UnifyAI OS - The enterprise AI operating system, presented by Data Science Wizards",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "15:15",
       "end": "15:45",
       "title": "Who owns the algorithm? AI accountability in the modern insurer",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:15",
+      "end": "15:25",
+      "title": "Product demo: Signal Fuse, presented by Data Axle",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
     },
     {
       "date": "2026-09-30",
@@ -1293,6 +1537,30 @@
     },
     {
       "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:40",
+      "title": "Accelerating the digitization of B2B payments in healthcare, presented by Mastercard",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:20",
+      "end": "15:55",
+      "title": "Group benefits technology: Enrollment, eligibility and data accuracy",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
+      "start": "15:30",
+      "end": "15:40",
+      "title": "Product demo: From one address to an entire market: DataTree® in action, presented by First American Data & Analytics",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "15:45",
       "end": "16:20",
       "title": "Where the rubber meets the rate: How real-time traffic is redefining territory rating, presented by TomTom",
@@ -1309,11 +1577,43 @@
     },
     {
       "date": "2026-09-30",
+      "start": "15:45",
+      "end": "16:20",
+      "title": "Embedded insurance and strategic partnerships: new paths to market",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-09-30",
       "start": "15:50",
       "end": "16:20",
       "title": "Transforming insurance SDLC with AI & agentic orchestration, presented by Aggne",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "08:15",
+      "end": "10:10",
+      "title": "Thursday Keynotes On the Main Stage",
+      "location": "Oceanside Ballroom CD",
+      "stream": "Oceanside Ballroom CD"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:00",
+      "end": "10:10",
+      "title": "Product demo: Quadient Evolve: AI-powered template generator, presented by Quadient",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:15",
+      "end": "10:25",
+      "title": "Product demo: Adopt AI",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
     },
     {
       "date": "2026-10-01",
@@ -1349,6 +1649,22 @@
     },
     {
       "date": "2026-10-01",
+      "start": "10:30",
+      "end": "10:40",
+      "title": "Product demo: Balto.ai",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:30",
+      "end": "10:35",
+      "title": "Opening remarks, presented by Salesforce",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
       "start": "10:35",
       "end": "11:05",
       "title": "Building quantum resilience: The journey to quantum-safe cryptography, presented by IBM",
@@ -1357,11 +1673,43 @@
     },
     {
       "date": "2026-10-01",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "Distribution 2.0: reimagining the broker & digital channel stack",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:35",
+      "end": "11:10",
+      "title": "The AI-enabled advisor: Sales, suitability and retirement planning",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "10:45",
+      "end": "10:55",
+      "title": "Product demo: The Future of Distribution Management: From disconnected systems to one orchestration layer, presented by Producerflow",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
       "start": "11:00",
       "end": "11:45",
       "title": "CB Insights Top 50 Insurtech Report: Unpacking the world’s most promising insurtech startups",
       "location": "Reef Ballroom EF",
       "stream": "Reef Ballroom EF"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:00",
+      "end": "11:10",
+      "title": "Product demo: AI Agents for customer interactions, presented by InfiniteWatch",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
     },
     {
       "date": "2026-10-01",
@@ -1381,11 +1729,51 @@
     },
     {
       "date": "2026-10-01",
+      "start": "11:15",
+      "end": "11:25",
+      "title": "Product demo: Indemn Digital Workforce",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "Build vs. buy is only half the decision: Fireside chat with Adam Landau (CIO, Berkshire Hathaway GUARD), presented by Further AI",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:15",
+      "end": "11:35",
+      "title": "The claim that never happened",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:30",
+      "end": "11:40",
+      "title": "Product demo: Driving trust: Empowering consumers through telematics, presented by TransUnion",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
       "start": "11:40",
       "end": "12:10",
       "title": "What is an AI-first insurance application? — Reimagining insurance operations with generative AI, presented by GenerativeX",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:40",
+      "end": "12:00",
+      "title": "Annuities in a high-rate environment: product design and distribution strategy",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
     },
     {
       "date": "2026-10-01",
@@ -1402,6 +1790,46 @@
       "title": "The weaponization of AI and cyber insurance",
       "location": "Mandalay Bay Ballroom J",
       "stream": "Mandalay Bay Ballroom J"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:45",
+      "end": "12:00",
+      "title": "The hidden cost of bad agency data: Why your distribution strategy — and your AI — depends on what's underneath it, presented by Neilson Marketing Services",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "11:50",
+      "end": "12:10",
+      "title": "From possibility to progress: Building the future of insurance, presented by Apryse",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "12:05",
+      "end": "12:25",
+      "title": "The AI-enabled benefits lifecycle",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "12:15",
+      "end": "12:35",
+      "title": "Reimagining customer engagement through AI at a 165-year-old insurance company",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "12:30",
+      "end": "12:40",
+      "title": "How did an insurer increase enrollment 114%? presented by TruAgents",
+      "location": "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "stream": "ITC Life, Health & Benefits Stage (Expo Floor)"
     },
     {
       "date": "2026-10-01",
@@ -1429,11 +1857,51 @@
     },
     {
       "date": "2026-10-01",
+      "start": "14:00",
+      "end": "14:10",
+      "title": "Product demo: Variabl",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:00",
+      "end": "14:20",
+      "title": "Can digital transformation outrun AI fraud? Presented by Socure",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
       "start": "14:05",
       "end": "14:35",
       "title": "Receipts to roadmap, presented by Liberate",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:15",
+      "end": "14:25",
+      "title": "Product demo: AODocs",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:25",
+      "end": "14:45",
+      "title": "Beyond the buzz: From reactive to predictive AI in insurance turning emerging AI into smarter risk intelligence",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:30",
+      "end": "14:40",
+      "title": "Product demo: ePayPolicy",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
     },
     {
       "date": "2026-10-01",
@@ -1453,6 +1921,22 @@
     },
     {
       "date": "2026-10-01",
+      "start": "14:45",
+      "end": "14:55",
+      "title": "Product demo: G1 Platform (Powered By Growth Insurance)",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "14:50",
+      "end": "15:10",
+      "title": "Universal accessibility in documents: Essential for some, better for all",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
       "start": "15:00",
       "end": "15:35",
       "title": "Cyber risk Q&A: Our experts - your questions",
@@ -1461,14 +1945,46 @@
     },
     {
       "date": "2026-10-01",
+      "start": "15:00",
+      "end": "15:10",
+      "title": "Product demo: From Submission to Policy Issuance, presented by Mulberri",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
       "start": "15:15",
       "end": "15:45",
       "title": "Rebuilding the engine mid-flight: AI-powered core modernization, presented by LTM",
       "location": "Mandalay Bay Ballroom L",
       "stream": "Mandalay Bay Ballroom L"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "15:15",
+      "end": "15:25",
+      "title": "The Future of Superintelligent Vision, presented by Matter",
+      "location": "Innovation Alley (Expo Floor)",
+      "stream": "Innovation Alley (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "15:15",
+      "end": "15:50",
+      "title": "Aggregators, marketplaces and the fight for placement",
+      "location": "ITC Vegas Growth Stage (Expo Floor)",
+      "stream": "ITC Vegas Growth Stage (Expo Floor)"
+    },
+    {
+      "date": "2026-10-01",
+      "start": "20:00",
+      "end": "22:00",
+      "title": "ITC Vegas Official Closing Party featuring the Gin Blossoms!",
+      "location": "Oceanside Ballroom CD",
+      "stream": "Oceanside Ballroom CD"
     }
   ],
-  "updatedAt": "2026-09-29T20:07:47Z",
-  "sourceHash": "5c23ccfe87dab05e639fe92e85024ee49d9f1973354f3eaaa964bb87a1a45390",
-  "scheduleHash": "bd96efd8d0d987843441e0c1fb663e9d5995fc11727380ad8df879ad8490dddf"
+  "updatedAt": "2026-09-30T16:24:53Z",
+  "sourceHash": "c9df314177c3795df6cbf85c5e596f8239c4fac60719ed6bd3bbd33c525334c6",
+  "scheduleHash": "c11c3045dd99f4ff42a5bb31eed07ebba4e5928a361328c6e69c4dbf62b9bc0f"
 }
