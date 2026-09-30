@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "itc-vegas-2026",
-  "version": "2026-09-29-overrun-a",
+  "version": "2026-09-30-recording-rooms-a",
   "name": "ITC Vegas 2026",
   "shortName": "ITC",
   "timezone": "America/Los_Angeles",
@@ -24,7 +24,12 @@
     "Mandalay Bay Ballroom K",
     "Mandalay Bay Ballroom L",
     "Oceanside Ballroom B",
-    "Reef Ballroom EF"
+    "Oceanside Ballroom CD",
+    "Reef Ballroom EF",
+    "Live @ ITC - EXPO",
+    "Innovation Alley (Expo Floor)",
+    "ITC Vegas Growth Stage (Expo Floor)",
+    "ITC Life, Health & Benefits Stage (Expo Floor)"
   ],
   "aliases": {
     "breakers bc": "Breakers Ballroom BC",
@@ -47,6 +52,22 @@
     "mandalay bay ballroom l": "Mandalay Bay Ballroom L",
     "oceanside b": "Oceanside Ballroom B",
     "oceanside ballroom b": "Oceanside Ballroom B",
+    "oceanside cd": "Oceanside Ballroom CD",
+    "oceanside ballroom cd": "Oceanside Ballroom CD",
+    "main stage": "Oceanside Ballroom CD",
+    "live @ itc": "Live @ ITC - EXPO",
+    "live at itc": "Live @ ITC - EXPO",
+    "innovation stage": "Innovation Alley (Expo Floor)",
+    "itc solutions": "Innovation Alley (Expo Floor)",
+    "itc solutions stage": "Innovation Alley (Expo Floor)",
+    "innovation alley": "Innovation Alley (Expo Floor)",
+    "itc vegas growth": "ITC Vegas Growth Stage (Expo Floor)",
+    "vegas growth": "ITC Vegas Growth Stage (Expo Floor)",
+    "itc vegas growth stage": "ITC Vegas Growth Stage (Expo Floor)",
+    "itc life/health": "ITC Life, Health & Benefits Stage (Expo Floor)",
+    "itc life health": "ITC Life, Health & Benefits Stage (Expo Floor)",
+    "life health": "ITC Life, Health & Benefits Stage (Expo Floor)",
+    "life, health & benefits": "ITC Life, Health & Benefits Stage (Expo Floor)",
     "reef ef": "Reef Ballroom EF",
     "reef ballroom ef": "Reef Ballroom EF"
   },
@@ -96,5 +117,46 @@
     ]
   },
   "overrunGraceMinutes": 10,
-  "overrunMinSessionMinutes": 90
+  "overrunMinSessionMinutes": 90,
+  "recordingPlan": {
+    "source": "Google Sheet ITC Vegas 2026 - EDITING sheet",
+    "2026-09-29": [
+      "Mandalay Bay Ballroom J",
+      "Breakers Ballroom BC",
+      "Mandalay Bay Ballroom D",
+      "Mandalay Bay Ballroom F",
+      "Mandalay Bay Ballroom K",
+      "Mandalay Bay Ballroom L",
+      "Oceanside Ballroom B",
+      "Mandalay Bay Ballroom I",
+      "Lagoon Ballroom KL",
+      "Breakers Ballroom DE",
+      "Reef Ballroom EF"
+    ],
+    "2026-09-30": [
+      "Oceanside Ballroom CD",
+      "Live @ ITC - EXPO",
+      "Innovation Alley (Expo Floor)",
+      "ITC Vegas Growth Stage (Expo Floor)",
+      "Mandalay Bay Ballroom I",
+      "Mandalay Bay Ballroom J",
+      "Mandalay Bay Ballroom K",
+      "Mandalay Bay Ballroom L",
+      "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "Mandalay Bay Ballroom D",
+      "Reef Ballroom EF"
+    ],
+    "2026-10-01": [
+      "Oceanside Ballroom CD",
+      "Live @ ITC - EXPO",
+      "Innovation Alley (Expo Floor)",
+      "ITC Vegas Growth Stage (Expo Floor)",
+      "Mandalay Bay Ballroom I",
+      "Mandalay Bay Ballroom J",
+      "Mandalay Bay Ballroom K",
+      "Mandalay Bay Ballroom L",
+      "ITC Life, Health & Benefits Stage (Expo Floor)",
+      "Reef Ballroom EF"
+    ]
+  }
 }
