@@ -827,7 +827,7 @@
       "date": "2026-09-29",
       "start": "15:35",
       "end": "15:55",
-      "title": "AI in distribution: Redesigning the workflows that drive new and renewal business, presented by Vertafore",
+      "title": "The agent experience is changing: What carriers need to rethink in the AI era, presented by Vertafore",
       "location": "Mandalay Bay Ballroom K",
       "stream": "Mandalay Bay Ballroom K"
     },
@@ -1539,7 +1539,7 @@
       "date": "2026-09-30",
       "start": "15:20",
       "end": "15:40",
-      "title": "Accelerating the digitization of B2B payments in healthcare, presented by Mastercard",
+      "title": "Accelerating the digitization of payments in insurance and healthcare, presented by Mastercard",
       "location": "ITC Vegas Growth Stage (Expo Floor)",
       "stream": "ITC Vegas Growth Stage (Expo Floor)"
     },
@@ -1984,7 +1984,7 @@
       "stream": "Oceanside Ballroom CD"
     }
   ],
-  "updatedAt": "2026-09-30T16:24:53Z",
-  "sourceHash": "c9df314177c3795df6cbf85c5e596f8239c4fac60719ed6bd3bbd33c525334c6",
-  "scheduleHash": "c11c3045dd99f4ff42a5bb31eed07ebba4e5928a361328c6e69c4dbf62b9bc0f"
+  "updatedAt": "2026-10-07T23:54:27Z",
+  "sourceHash": "0644a7565fa5dcc6c9575ee75b0371d0fa062ed9811a0b3dc3a119ee143ed816",
+  "scheduleHash": "b2b554156e67298573d6b2891e78b0373a0001464018677bc1f4b74620d76a26"
 }
