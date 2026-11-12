@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "business-of-apps-berlin-2026",
+  "version": "2026-11-12-live-a",
+  "name": "Business of Apps Berlin 2026",
+  "shortName": "BoA Berlin",
+  "timezone": "Europe/Berlin",
+  "utcOffset": "+01:00",
+  "dates": [
+    "2026-11-12"
+  ],
+  "parserPreset": "generic-dom-v1",
+  "allowOverlaps": true,
+  "locations": [
+    "Main Conference Room",
+    "Growth Zone",
+    "User Acquisition Zone",
+    "Retention & Revenue Zone",
+    "The Verticals Zone"
+  ],
+  "aliases": {
+    "main": "Main Conference Room",
+    "main room": "Main Conference Room",
+    "main stage": "Main Conference Room",
+    "main conference room": "Main Conference Room",
+    "growth": "Growth Zone",
+    "growth stage": "Growth Zone",
+    "growth zone": "Growth Zone",
+    "ua": "User Acquisition Zone",
+    "ua zone": "User Acquisition Zone",
+    "user acquisition": "User Acquisition Zone",
+    "user acquisition zone": "User Acquisition Zone",
+    "retention": "Retention & Revenue Zone",
+    "retention zone": "Retention & Revenue Zone",
+    "revenue": "Retention & Revenue Zone",
+    "revenue zone": "Retention & Revenue Zone",
+    "retention revenue": "Retention & Revenue Zone",
+    "retention & revenue zone": "Retention & Revenue Zone",
+    "verticals": "The Verticals Zone",
+    "verticals zone": "The Verticals Zone",
+    "the verticals zone": "The Verticals Zone"
+  },
+  "schedule": {
+    "sourceType": "json",
+    "dataUrl": "https://raw.githubusercontent.com/12arnost/trzby-app/main/robocam-control/events/business-of-apps-berlin-2026-schedule.json",
+    "fallbackUrl": "https://aps.app.swapcard.com/event/business-of-apps-berlin-2026/plannings/RXZlbnRWaWV3XzEyNDI2OTE=",
+    "refreshMinutes": 5,
+    "minSessions": 30
+  },
+  "watcher": {
+    "enabled": false,
+    "parserPreset": "generic-dom-v1",
+    "sourceUrls": [
+      "https://aps.app.swapcard.com/event/business-of-apps-berlin-2026/plannings/RXZlbnRWaWV3XzEyNDI2OTE="
+    ],
+    "outputPath": "robocam-control/events/business-of-apps-berlin-2026-schedule.json",
+    "minSessions": 30,
+    "requireAllDates": true,
+    "groupLocations": []
+  },
+  "overrunGraceMinutes": 5,
+  "overrunMinSessionMinutes": 30,
+  "recordingPlan": {
+    "source": "Business of Apps Berlin 2026 public Swapcard agenda; five robo rooms confirmed in Slack",
+    "2026-11-12": [
+      "Main Conference Room",
+      "Growth Zone",
+      "User Acquisition Zone",
+      "Retention & Revenue Zone",
+      "The Verticals Zone"
+    ]
+  }
+}
+
