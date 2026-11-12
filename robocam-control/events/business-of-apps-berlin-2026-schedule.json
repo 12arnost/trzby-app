@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "eventId": "business-of-apps-berlin-2026",
+  "eventVersion": "2026-11-12-live-a",
+  "sourceUrls": [
+    "https://aps.app.swapcard.com/event/business-of-apps-berlin-2026/plannings/RXZlbnRWaWV3XzEyNDI2OTE="
+  ],
+  "sessionCount": 30,
+  "countsByDate": {
+    "2026-11-12": 30
+  },
+  "locations": [
+    "Main Conference Room",
+    "Growth Zone",
+    "User Acquisition Zone",
+    "Retention & Revenue Zone",
+    "The Verticals Zone"
+  ],
+  "sessions": [
+    {"date":"2026-11-12","start":"09:15","end":"09:30","title":"Welcome to Business of Apps Berlin 2026","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"09:30","end":"09:50","title":"The App Centered Digital Strategy of FC Bayern","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"09:50","end":"10:10","title":"It's the Tradeoffs, Stupid! - How Experimentation Helped Zalando Shape their Product Strategy and Organisation","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"10:20","end":"11:00","title":"The Apps that Broke Through: What 2026's Winners did Differently in a Flooded Market","location":"Growth Zone","stream":"Growth Zone"},
+    {"date":"2026-11-12","start":"10:20","end":"11:00","title":"What's Next for App Growth? [Interactive Panel]","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"10:20","end":"11:00","title":"From Ad to Paywall by Agents","location":"Retention & Revenue Zone","stream":"Retention & Revenue Zone"},
+    {"date":"2026-11-12","start":"10:20","end":"11:00","title":"Shopping App Forum","location":"The Verticals Zone","stream":"The Verticals Zone"},
+    {"date":"2026-11-12","start":"10:20","end":"11:00","title":"From Proof to Growth: How Incrementality Shapes Where We Grow Next","location":"User Acquisition Zone","stream":"User Acquisition Zone"},
+    {"date":"2026-11-12","start":"11:30","end":"11:50","title":"App2Web, Done Right: Keep More Revenue and Grow Beyond the App Store","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"11:30","end":"12:10","title":"Ahead of the Curve: Building Smarter Customer Journeys with Frameo & Lovable","location":"Retention & Revenue Zone","stream":"Retention & Revenue Zone"},
+    {"date":"2026-11-12","start":"11:30","end":"12:10","title":"Health & Fitness App Forum","location":"The Verticals Zone","stream":"The Verticals Zone"},
+    {"date":"2026-11-12","start":"11:30","end":"12:10","title":"Built to Last: How the Best Mobile Game Launches Win their First Year","location":"User Acquisition Zone","stream":"User Acquisition Zone"},
+    {"date":"2026-11-12","start":"11:50","end":"12:10","title":"How to Raise the Ceiling Without Alienating Your Highest-Intent Users","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"12:10","end":"12:30","title":"From 140M+ Downloads to a New AI-Native App","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"12:20","end":"13:00","title":"Apple Ads in 2026: What Changed and How to Grow With It","location":"Growth Zone","stream":"Growth Zone"},
+    {"date":"2026-11-12","start":"12:20","end":"13:00","title":"FinTech App Forum","location":"The Verticals Zone","stream":"The Verticals Zone"},
+    {"date":"2026-11-12","start":"12:20","end":"13:00","title":"Influencer Marketing Circle: Lessons from Vinted and Omio","location":"User Acquisition Zone","stream":"User Acquisition Zone"},
+    {"date":"2026-11-12","start":"14:00","end":"14:40","title":"Running AI Ad Production At Scale: Lessons From 100+ Apps","location":"Growth Zone","stream":"Growth Zone"},
+    {"date":"2026-11-12","start":"14:00","end":"14:30","title":"How to Win the Long Game with App Retention","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"14:00","end":"14:40","title":"Your Onboarding Completion Rate is Lying to You","location":"Retention & Revenue Zone","stream":"Retention & Revenue Zone"},
+    {"date":"2026-11-12","start":"14:00","end":"14:40","title":"Travel App Forum","location":"The Verticals Zone","stream":"The Verticals Zone"},
+    {"date":"2026-11-12","start":"14:00","end":"14:40","title":"Why Measurement Feels Broken—and How to Make It Work for You","location":"User Acquisition Zone","stream":"User Acquisition Zone"},
+    {"date":"2026-11-12","start":"14:30","end":"14:50","title":"What AI Actually Changes About Experimentation","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"14:50","end":"15:30","title":"Beyond Integrated Growth: The Rise of Agentic Growth Systems","location":"Growth Zone","stream":"Growth Zone"},
+    {"date":"2026-11-12","start":"14:50","end":"15:10","title":"Onboarding that Converts: Designing the First Session for Retention and Engagement","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"14:50","end":"15:30","title":"Fix your Funnel: Find the Leaks that are Costing you Conversion","location":"Retention & Revenue Zone","stream":"Retention & Revenue Zone"},
+    {"date":"2026-11-12","start":"16:00","end":"16:40","title":"Is ASO Dead?","location":"Growth Zone","stream":"Growth Zone"},
+    {"date":"2026-11-12","start":"16:00","end":"16:45","title":"Closing Panel: AI in Action","location":"Main Conference Room","stream":"Main Conference Room"},
+    {"date":"2026-11-12","start":"16:00","end":"16:40","title":"From First Tap to Cancel Screen: How to Personalize Your Subscription Funnel","location":"Retention & Revenue Zone","stream":"Retention & Revenue Zone"},
+    {"date":"2026-11-12","start":"16:00","end":"16:40","title":"Partnerships for User Acquisition and Engagement","location":"User Acquisition Zone","stream":"User Acquisition Zone"}
+  ]
+}
+
