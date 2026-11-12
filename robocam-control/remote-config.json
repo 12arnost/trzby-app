@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "enabled": true,
-  "configVersion": "event-router-2026-09-27-a",
-  "activeEvent": "itc-vegas-2026",
-  "eventConfigUrl": "https://raw.githubusercontent.com/12arnost/trzby-app/main/robocam-control/events/itc-vegas-2026.json"
+  "configVersion": "event-router-2026-11-12-boa-a",
+  "activeEvent": "business-of-apps-berlin-2026",
+  "eventConfigUrl": "https://raw.githubusercontent.com/12arnost/trzby-app/main/robocam-control/events/business-of-apps-berlin-2026.json"
 }
